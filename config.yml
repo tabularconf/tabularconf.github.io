@@ -10,7 +10,7 @@ GoogleAnalytics: ""
 
 params:
   # Conference info
-  Name: "Conference name"
+  Name: "Tabularconf"
   Description: "Conference description"
   Date: "Enero"
   #Price: "Only $100" # If your event is free, just comment this line
