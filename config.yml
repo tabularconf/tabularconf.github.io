@@ -1,5 +1,5 @@
-baseurl: "https://data-conference-demo.github.io/data_conference.demo.github.io/"
-title: "Conference name"
+baseurl: "https://tabularconf.es"
+title: "Tabularconf"
 canonifyurls: true
 theme: "hugo-conference"
 
