@@ -906,9 +906,19 @@ nav {
   .header {
     background-size: auto 100%;
   }
+  .description {
+    font-size: 16px;
+  }
 }
 @media only screen and (max-width: 480px) {
   /* speakers */
+  .header {
+    background-size: auto 100%;
+  }
+  .description {
+    font-size: 16px;
+  }
+
   .speaker-photo .photo {
     box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.07);
   }
