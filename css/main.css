@@ -731,6 +731,9 @@ nav {
 .tagline {
   font-weight: normal;
 }
+.description {
+  color: rebeccapurple;
+}
 .call-action-area .price {
   color: #fddd52;
 }
