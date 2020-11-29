@@ -774,13 +774,20 @@ nav {
    CONTENT
    ========================================================================== */
 .content a {
-  color: #f0a303;
+  color: rebeccapurple;
 }
 .content a:hover,
 .content a:focus {
-  color: #fddd52;
+  color: rebeccapurple;
   text-decoration: underline;
 }
+.content{
+  font-size: 10px;
+}
+
+
+
+
 /* =============================================================================
    ABOUT
    ========================================================================== */
