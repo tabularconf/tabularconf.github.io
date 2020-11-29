@@ -66,9 +66,17 @@ params:
     - name: "Python España"
       logo: "/img/python_es.png"
       url: "https://es.python.org/"
+    - name: "Python Canarias"
+      logo: "/img/logo-python-canarias-color.svg"
+      url: "https://pythoncanarias.es/"
+    - name: "R Canarias"
+      logo: "/img/logo_R_Canarias.jpg"
+      url: "http://canarias.r-es.org/"
     - name: "Python Málaga"
       logo: "/img/python_malaga.png"
       url: "https://www.python-malaga.es/"
+  
+
 
   # The entire schedule
   Schedule:
