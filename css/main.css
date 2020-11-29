@@ -722,7 +722,7 @@ nav {
   background-color: #2b2b2b;
   background-repeat: no-repeat;
   background-position: center bottom;
-  background-size: 100% auto;
+
 }
 .logo-link,
 .tagline,
@@ -904,16 +904,26 @@ nav {
    ========================================================================== */
 @media only screen and (max-width: 1024px) {
   .header {
-    background-size: auto 100%;
+    /*background-size: auto 180%;*/
   }
   .description {
     font-size: 16px;
   }
 }
+ 
+ @media only screen and (max-width: 768px) {
+  .header {
+    /*background-size: 120%;*/
+  }
+  .description {
+    font-size: 16px;
+  }
+}
+
 @media only screen and (max-width: 480px) {
   /* speakers */
   .header {
-    background-size: auto 100%;
+    /*background-size: auto 100%;*/
   }
   .description {
     font-size: 16px;
