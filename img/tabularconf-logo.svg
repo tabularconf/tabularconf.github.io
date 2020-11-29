@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 126 98" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,-449.121,-180.968)">
+        <g transform="matrix(0.999826,0,0,0.999826,26.5471,-37.0286)">
+            <g id="Prismas" transform="matrix(0.370832,0,0,0.370832,300.555,183.663)">
+                <g id="Cuerpo">
+                    <path d="M443.405,128L609.682,224L609.682,352L443.405,256L443.405,128Z" style="fill:white;stroke:black;stroke-width:6.63px;"/>
+                    <path d="M498.831,96L665.108,192L609.682,224L443.405,128L498.831,96Z" style="fill:white;stroke:black;stroke-width:6.63px;"/>
+                    <path d="M665.108,320L665.108,192L609.682,224L609.682,352L665.108,320Z" style="fill:white;stroke:black;stroke-width:6.63px;"/>
+                </g>
+                <g id="Cubo-interior" serif:id="Cubo interior">
+                    <path d="M554.256,192L554.256,256L609.682,288L609.682,224L554.256,192Z" style="fill:rgb(174,174,174);stroke:black;stroke-width:6.63px;"/>
+                    <path d="M554.256,192L609.682,160L665.108,192L609.682,224L554.256,192Z" style="fill:rgb(174,174,174);stroke:black;stroke-width:6.63px;"/>
+                    <path d="M609.682,288L665.108,256L665.108,192L609.682,224L609.682,288Z" style="fill:rgb(174,174,174);stroke:black;stroke-width:6.63px;"/>
+                </g>
+                <g id="Prisma-interior" serif:id="Prisma interior">
+                    <path d="M498.831,288L498.831,224L387.979,288L387.979,352L498.831,288Z" style="fill:rgb(128,0,128);stroke:black;stroke-width:6.63px;"/>
+                    <path d="M387.979,288L332.554,256L332.554,320L387.979,352L387.979,288Z" style="fill:white;stroke:black;stroke-width:6.63px;"/>
+                    <path d="M332.554,256L443.405,192L498.831,224L387.979,288L332.554,256Z" style="fill:white;stroke:black;stroke-width:6.63px;"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
