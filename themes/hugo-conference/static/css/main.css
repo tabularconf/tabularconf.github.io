@@ -346,6 +346,8 @@ nav {
   font-size: 2em;
   letter-spacing: -0.02em;
 }
+
+
 .call-action-area .price {
   font-size: 4em;
   vertical-align: center;
@@ -732,8 +734,18 @@ nav {
   font-weight: normal;
 }
 .description {
+  font-size: 30px;
   color: rebeccapurple;
+  font-weight: bold;
+  padding: 10px;
+  padding-inline: 25px;
+  background-color:rgba(200, 160, 235, 0.7);
+
 }
+.extralogo {
+  color: lightgray;
+}
+
 .call-action-area .price {
   color: #fddd52;
 }
@@ -762,13 +774,20 @@ nav {
    CONTENT
    ========================================================================== */
 .content a {
-  color: #f0a303;
+  color: rebeccapurple;
 }
 .content a:hover,
 .content a:focus {
-  color: #fddd52;
+  color: rebeccapurple;
   text-decoration: underline;
 }
+.content{
+  font-size: 10px;
+}
+
+
+
+
 /* =============================================================================
    ABOUT
    ========================================================================== */
@@ -852,8 +871,10 @@ nav {
 .sponsor--link,
 .partner-link {
   background: #fff;
-  border: 1px solid #ccc;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.15);
+  border: 0px solid #ccc;
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.15);
+  padding-block: 14px;
+  padding-inline: 25px;
 }
 .sponsor--link:hover,
 .sponsor--link:focus,

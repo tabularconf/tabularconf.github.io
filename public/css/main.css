@@ -731,6 +731,14 @@ nav {
 .tagline {
   font-weight: normal;
 }
+.extralogo {
+  color: grey;
+}
+.description {
+  color: rebeccapurple;
+  font-weight: bold;
+  padding: 10px
+}
 .call-action-area .price {
   color: #fddd52;
 }
