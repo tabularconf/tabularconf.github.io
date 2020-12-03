@@ -28,8 +28,9 @@ params:
   # you can also change order here and it will reflect on page
   Sections:
     - about
+    - topic
     #- location
-    #- speakers
+    - speakers
     #- schedule
     #- sponsors
     - partners
@@ -38,8 +39,9 @@ params:
   # Titles which you can translate to other languages
   Titles:
     about: "Evento"
+    topics: "Topics"
     location: "Location"
-    speakers: "Speakers"
+    speakers: "Ponentes"
     schedule: "Schedule"
     sponsors: "Sponsors"
     partners: "Organiza"
@@ -75,6 +77,10 @@ params:
     - name: "PyData Salamanca"
       logo: "/img/pydata-sal-logo.png"
       url: "https://www.meetup.com/es-ES/PyData-Salamanca/"
+    - name: "RLadies Madrid"
+      logo: "/img/rladies.png"
+      url: "https://www.meetup.com/es/rladies-madrid/"
+  
     - name: "Python Málaga"
       logo: "/img/python_malaga.png"
       url: "https://www.python-malaga.es/"
