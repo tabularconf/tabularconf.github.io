@@ -1,4 +1,11 @@
 <h2 class="section-title">{{ .titles.speakers }}</h2>
+<p>Atento a <a href="https://twitter.com/TabularConf">
+  twitter
+  </a> para saber quien es nuestro próximno ponente!!</p>
+
+  <img src="img/user_anon.png" width="20px" class="center"></img>
+
+
 
 <ul class="speakers-list">
 {{ range $speaker := (where .schedule "presentation" "ne" nil) }}
