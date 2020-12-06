@@ -10,8 +10,8 @@ GoogleAnalytics: ""
 
 params:
   # Conference info
-  Title: "tabularConf"
-  Name: "tabular"
+  Title: "TabularConf"
+  Name: "Tabular"
   Extraname: "Conf"
   Description: "On the edge of datascience"
   Date: "30 de Enero 2021"
@@ -29,9 +29,9 @@ params:
   Sections:
     - about
     - topic
-    #- location
+    - location
     - speakers
-    #- schedule
+    - schedule
     #- sponsors
     - partners
     #- contact
@@ -39,10 +39,10 @@ params:
   # Titles which you can translate to other languages
   Titles:
     about: "Evento"
-    topics: "Topics"
-    location: "Location"
+    topics: "CoC"
+    location: "FAQ"
     speakers: "Ponentes"
-    schedule: "Schedule"
+    schedule: "Agenda"
     sponsors: "Sponsors"
     partners: "Organiza"
     contact: "Contact"
@@ -88,8 +88,32 @@ params:
 
 
   # The entire schedule
-  Schedule:
-    - name: "Check-in / Breakfast"
-      time: "9h00"
+  Schedule: 
+    - name: "Masajeando datos: ETLs en la nube con Data Fusion"
+      photo: 
+      bio: 
+      company: 
+      link:
+        href:
+        text:
+      presentation:
+        title:
+        description:
+        time: 
 
-   
+    - name: "Dime cómo juegas y me adaptaré a quién eres"
+      time: "10h30"
+    - name: "La luna deja un histograma abandonado en el aire"
+      time: "11h00"
+    - name: "Aplicaciones del Machine Learning al mundo del fútbol"
+      time: "11h30"
+    - name: "Identifica a tu mascota con Computer Vision"
+      time: "12h00"
+    - name: "Mitigating Eviction Risk for Residents in the City of Dallas"
+      time: "12h30"
+    - name: "Ciencia de datos geoespaciales para la vigilancia de la salud pública - KEYNOTE"
+      time: "13h00"
+    - name: "MLOps: cómo poner tus sistemas de machine learning en producción"
+      time: "13h30"
+    - name: "TBD"
+      time: "14h00"
