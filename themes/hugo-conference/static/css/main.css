@@ -465,7 +465,9 @@ nav {
   width: 100%;
   padding: 3%;
 }
-
+.topics-in img {
+  width: 50px
+}
 
 
 /* =============================================================================
@@ -896,6 +898,9 @@ nav {
     border-radius: 4px;
   }
 
+  .topic-logo {
+    width: 60px
+  }
 
 /* =============================================================================
    LOCATION
@@ -1044,4 +1049,18 @@ nav {
   .github-link {
     display: none;
   }
+
+  .topics {
+    margin: 0px;
+}
+  .topics-in {
+    display: inline-block;
+    width: 100%;
+    padding: 1%;
+}
+
+  .topics-in.img {
+    width: 10px
+  }
+
 }
