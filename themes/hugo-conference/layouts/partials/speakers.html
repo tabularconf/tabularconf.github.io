@@ -1,9 +1,4 @@
 <h2 class="section-title">{{ .titles.speakers }}</h2>
-<p>Atento a <a href="https://twitter.com/TabularConf">
-  twitter
-  </a> para saber quien es nuestro próximno ponente!!</p>
-
-  <img src="img/user_anon.png" width="20px" class="center"></img>
 
 
 
@@ -18,9 +13,9 @@
 
     <h3 class="speech-title">
       {{ with .presentation.time }}
-      <span class="speech-time">{{ . }}</span>
+      <!--<span class="speech-time">{{ . }}</span>-->
       {{ end }}
-      <span>{{ .presentation.title }}</span>
+      <!---<span>{{ .presentation.title }}</span>-->
     </h3>
 
     <h3 class="speakers-name">{{ .name }}

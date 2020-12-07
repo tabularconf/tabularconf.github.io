@@ -5,9 +5,6 @@ theme: "hugo-conference"
 
 GoogleAnalytics: ""
 
-
-
-
 params:
   # Conference info
   Title: "tabularConf"
@@ -31,7 +28,7 @@ params:
     - topic
     #- location
     - speakers
-    #- schedule
+    - schedule
     #- sponsors
     - partners
     #- contact
@@ -42,7 +39,7 @@ params:
     topics: "Topics"
     location: "Location"
     speakers: "Ponentes"
-    schedule: "Schedule"
+    schedule: "Agenda"
     sponsors: "Sponsors"
     partners: "Organiza"
     contact: "Contact"
@@ -80,7 +77,6 @@ params:
     - name: "RLadies Madrid"
       logo: "/img/rladies.png"
       url: "https://www.meetup.com/es/rladies-madrid/"
-  
     - name: "Python Málaga"
       logo: "/img/python_malaga.png"
       url: "https://www.python-malaga.es/"
@@ -89,7 +85,98 @@ params:
 
   # The entire schedule
   Schedule:
-    - name: "Check-in / Breakfast"
-      time: "9h00"
+    - name: Alejandro Samarín
+      photo: img/alejandro_samarin.jpg
+      bio: "Alex Samarín works as a full-stack engineer at TecAlliance. To keep things fun and diverse, he has also been freelancing as a side job for the last 3 years; this has involved heterogeneous gigs like conducting technical interviews, delivering trainings or implementing data processing pipelines. Besides computing, he likes guitars, climbing, table tennis, lockpicking and scuba diving."
+      company: 
+        link:
+          href:
+          text:
+      presentation:
+        title: "Masajeando datos: ETLs en la nube con Data Fusion"
+        description: "Building efficient and reliable data pipelines can be a time-consuming task. There are many aspects to consider; infrastructure, code, data ingress/egress, reporting, metrics, etc. Data Fusion is Google's answer to this problem, offering a managed CDAP environment to create data processing pipelines using an intuitive visual interface, with the added benefit of tight integration with the rest of Google Cloud Platform services and APIs. We'll take a tour around Data Fusion, build a real processing pipeline, throw some data at it and discuss pros and cons of this approach to ETL."
+        time: 
 
-   
+    - name: "Miriam Cabrera Galván"
+      photo: img/miriam_cabrera.jpg
+      bio: "Apasionada del desarrollo de videojuegos y la ciencia de datos. Freelance Unity developer, desarrollando desde un videojuego hasta en realidad virtual. Los gráficos por computador le han el robado el corazón, pero se ha dedicado a la ciencia de datos. Participante de la edición de PlayStation Talents Games Camp 2019 y desarrolladora independiente en Papas con Mojo Games."
+      company: 
+      link:
+        href:
+        text:
+      presentation:
+        title: "Dime cómo juegas y me adaptaré a quién eres"
+        description: "¿Por qué los juegos móviles enganchan tanto? ¿Por qué la monetización en los juegos cambia constantemente? ¿Por qué los juegos se adaptan tan bien a su target? En la respuesta a estas preguntas hay un factor importante que ayuda a los diseñadores de videojuegos, ¡la ciencia de datos! En esta charla, analizaremos el importante papel de este campo en el mercado de juegos móvil. Veremos casos de ejemplo para ver cómo las métricas ayudan al engagement, posicionamiento, compras...¡Dale al play!"
+        time:
+
+    - name: "Alejandro Benito Santos"
+      photo: img/alejandro_benito.png
+      bio: "Alejandro Benito-Santos (https://alexbs.me/) es miembro del grupo de analítica visual y visualización de la información de la Universidad de Salamanca (VisUSAL), donde obtuvo su doctorado desarrollando herramientas y algoritmos visuales orientados a apoyar el diseño de visualizaciones en Humanidades Digitales y otros contextos de investigación interdisciplinarios. Actualmente, alterna sus clases en el diploma experto en bioinformática y genómica computacional de la Universidad de Salamanca con su actividad investigadora en el proyecto europeo PROVIDEDH - PROgressive VIsual DEcision-Making in Digital Humanities (https://providedh.eu/). Alejandro ha publicado sus trabajos en revistas y conferencias como IEEEVIS, IEEE Computer Graphics & Applications, ADHO Digital Humanities, ACM Journal on Computing and Cultural Heritage, o el workshop en visualización para las humanidades digitales (VIS4DH), entre otros."
+      company: 
+      link:
+        href:
+        text:
+      presentation:
+        title: "”La luna deja un histograma abandonado en el aire”; Una introducción a la visualización de textos en Python con Vega-lite y Altair de la mano de F. García Lorca"
+        description: "La visualización de grandes corpus de textos no estructurados escritos en lenguaje natural es una tarea que ha cobrado especial relevancia debido a su capacidad para acelerar la comprensión de los mismos por parte de un observador humano. En esta charla, presentaremos la biblioteca de visualización declarativa “Altair” (https://altair-viz.github.io/) y su gramática subyacente, vega-lite (https://vega.github.io/vega-lite/), a través de un análisis visual de distintas métricas lingüísticas obtenidas a partir de una selección de obras del conocido poeta y dramaturgo español Federico García Lorca (1898-1936)."
+        time:   
+
+    - name: "Javi Fernández y Juan Calderón"
+      photo:  img/juan_y_javier.jpg
+      bio: "Juan Francisco Calderón Zumba. Licenciado en Matemáticas con especialización en Estadística y Probabilidad, Ingeniero en Informática, Máster en Finanzas Cuantitativas por la UAB y un MBA en ESADE Business School, actualmente trabaja como Director de Ingeniería en Travelperk y gracias a Machine Learning puede juntar sus dos pasiones, software y matemáticas. Javier Fernández Rodriguez. Matemático con Máster en Big Data & Data Science. Actualmente trabaja como Data Scientist in Minsait (Indra) participando en proyectos de IA en distintos sectores. Amante de los deportes y con formación en Sports Analytics, busca acercar la analítica avanzada al mundo del fútbol elaborando proyectos que ayuden en la toma de decisiones."
+      company:
+      link:
+        href:
+        text:
+      presentation:
+        title: "Aplicaciones del Machine Learning al mundo del fútbol."
+        description: "¿Es el mundo del fútbol ajeno a los datos y a la estadística avanzada? Juan nos hablará cómo un modelo predictivo de goles podría generar rentabilidad financiera de corto y largo plazo. Por su parte, Javier, explicará cómo mediante técnicas de ML se podría llegar a predecir cuál hubiera sido el resultado más frecuente en un partido de fútbol basándose en la probabilidad de gol de sus disparos (métrica avanzada conocida en el mundo del fútbol como Expected Goal, xG). Todos estos análisis con open-data y con el uso de la librería de Python streamlit para la creación y despliegue de las diferentes aplicaciones. "
+        time:
+
+    - name: "Andrés Matesanz"
+      photo: img/andres_matesanz.jpg
+      bio: "Apasionado de las tecnologías, actualmente desarrollador de computer vision en Aeorum y organizador y co-fundador de la sede de Spain AI en Málaga. Estudió Óptica en la Universidad de Valladolid. Posee un Máster propio en desarrollo de realidad virtual y videojuegos y otro en Ingeniería del Software e Inteligencia Artificial en la Universidad de Málaga. Fue en esa misma universidad donde comenzó en 2018 a trabajar en el campo de la Visión por Computador para el proyecto Smart-Campus. Le encanta la música y trastear en sus ratos libres con proyectos relacionados con Machine Learning."
+      company: 
+      link:
+        href:
+        text:
+      presentation: 
+        title: "Identifica a tu mascota con Computer Vision."
+        description: "¿Eres de esas personas que les gusta trastear con la tecnología y llevar a cabo sus propios proyectos? ¿Te gustaría crear tu propio detector usando redes neuronales pero no sabes cómo? Descubre el pipeline completo que se esconde detrás del desarrollo y entrenamiento de Redes Neuronales Convolucionales para la detección de objetos. Mostraremos con código todos los pasos, desde la constucción del dataset a su entrenamiento pasando por el etiquetado. Para ello simplificaremos el proceso haciendo uso de la librería de python ImageAI y descubrirás cómo llevarlo a la práctica creando un verdadero detector de mascotas."
+        time:
+
+    - name: "Maria Medina"
+      photo: img/maria_medina.jpg
+      bio: "María Medina trabaja como Data Scientist en Microsoft y co-organiza la comunidad PyLadies Madrid. Estudió informática y matemáticas y encontró la combinación perfecta de ambos campos en el mundo de los datos. Le encanta explorar datos de cualquier tipo, y sus herramientas preferidas para hacer esto son Python y R."
+      company: 
+      link:
+        href:
+        text:
+      presentation:
+        title: "MLOps: cómo poner tus sistemas de machine learning en producción"
+        description: "Más allá de la parte experimental, los proyectos de data science pueden dar lugar a sistemas muy complejos y difíciles de mantener, que acabarán abandonados en un rincón si no aplicamos buenas prácticas de ingeniería del software a la hora de poner nuestros modelos en producción. Pero el mundo data science tiene unas características distintas a las del desarrollo tradicional, y por tanto muchas veces no queda claro cómo aplicar estas prácticas a los sistemas de machine learning. En esta charla haremos un repaso de las principales prácticas de la cultura DevOps y veremos cómo se pueden adaptar a proyectos de data science para generar un pipeline end-to-end de entrenamiento y despliegue de modelos de forma automática."
+        time:
+
+    - name: "Paula Moraga"
+      photo: img/paula_moraga.jpg
+      bio: "Paula Moraga es Profesora de Estadística en King Abdullah University of Science and Technology (KAUST) e Investigadora Principal del grupo GeoHealth. Su investigación se centra en el desarrollo de métodos estadísticos innovadores y herramientas computacionales para el análisis de datos geoespaciales y la vigilancia de la salud, y su trabajo ha contribuido directamente en la elaboración de políticas estratégicas para reducir la carga de enfermedades en varios países. Paula ha desarrollado modelos para comprender los patrones espaciales y espacio-temporales y guiar la implementación de intervenciones para reducir enfermedades como la malaria en África, la leptospirosis en Brasil y el cáncer en Australia, y ha desarrollado varios paquetes de R para la modelización Bayesiana de riesgos, la detección de clusters y la predicción de la propagación de enfermedades por flujos de viajes. Paula ha publicado extensamente en revistas líderes y es autora del libro 'Geospatial Health Data: Modeling and Visualization with R-INLA and Shiny' (2019, Chapman & Hall/CRC). Paula obtuvo su Ph.D. en Matemáticas por la Universidad de Valencia y su Máster en Bioestadística por la Universidad de Harvard."
+      company: 
+      link:
+        href:
+        text:
+      presentation: 
+        title: "Ciencia de datos geoespaciales para la vigilancia de la salud pública"
+        description: "Los datos de salud geoespaciales son esenciales para informar las políticas de salud pública. Estos datos pueden utilizarse para cuantificar la carga de enfermedades, comprender patrones geográficos y temporales, identificar factores de riesgo y medir desigualdades. En esta charla, describiré mi investigación que se centra en el desarrollo de métodos geoespaciales y aplicaciones de visualización interactivas para la vigilancia de la salud. Mostraré varios paquetes de R para manipular, modelizar y visualizar datos espaciales y como éstos pueden usarse para predecir el riesgo y guiar la implementación de intervenciones para la eliminación de enfermedades tropicales en varios países. También mostraré los paquetes de R epiflows para la predicción de la propagación de enfermedades por flujos de viajes, y SpatialEpiApp para el mapeo de enfermedades y la detección de clusters. Finalmente, describiré mis futuras líneas de investigación y cómo éstas pueden contribuir a mejorar la salud de la población a nivel global."
+        time: 
+
+    - name: "Bea (R-Ladies)"
+      photo: 
+      bio: "init"
+      company: 
+      link:
+        href:
+        text:
+      presentation:
+        title: "TBD"
+        description: "TBD "
+        time:
