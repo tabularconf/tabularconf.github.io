@@ -1,33 +1,47 @@
 <h2 class="section-title">{{ .titles.schedule }}</h2>
 
 <p>Agenda provisional del evento</p>
-<div class="schedule-tbl">
-  <table>
-    <thead>
-      <tr>
-        <th class="schedule-time">Hora</th>
-        <th class="schedule-slot">Título</th>
-        <th class="schedule-description">Abstract</th>
-      </tr>
-    </thead>
-    <tbody>
-      {{ range $slot := .talks }}
-        <tr>
-          <td class="schedule-time">{{ .time }}</td>
-          <td class="schedule-slot">
-          {{ with .photo }}
-            <!--<span class="speaker-photo">
-              <img class="photo" src="{{ . }}" alt="{{ $slot.name }}">
-            </span>-->
-          {{ end }}
 
-            {{ .title }} ({{ .author }})
-            <!--<span class="speakers-company">{{ .company }}</span>-->
-          </td>
-          
-          <td class="schedule-description">{{ .abstract }}</td>
-        </tr>
+
+
+
+{{ range $slot := .talks }}
+  <div class="talk-slot">
+    <h4 class="talk-first-header"> <span class="talk-time">{{ .time }}</span><span> - 
+      {{ range $author := .authors }}
+      </span><span class="talk-author"><a href="#{{ .author_id }}">{{ .author }}</a></span>
       {{ end }}
-    </tbody>
-  </table>
+    </h4>
+    <h4 class="talk-second-header">
+      <span class="talk-title">{{ .title }}</span>
+    </h4>
+    <p class="talk-abstract">
+      {{ .abstract }}
+    </p>
+    <div class="talk-topics">
+      {{ range $topic := .topics }}
+      <span class="talk-topic">{{ . }}</span>
+      {{ end }}
+    </div>
+  </div>
+  <div class="talk-vertical-line talk-vertical-line-content">
+
+  </div>
+{{ end }}
+<div class="talk-slot">
+  
+  <h4 class="talk-first-header"> <span class="talk-time"></span>6:00 pm<span> - </span><span class="talk-author"><a href="#{{ .author_id }}"></a></span></h4> 
+  <h3 class="talk-second-header">
+    <span class="talk-title">Cierre</span>
+  </h3>
+  <p class="talk-abstract">
+    Cierre y despedida del evento
+  </p>
+  <div class="talk-topics">
+    {{ range $topic := .topics }}
+    <span class="talk-topic">{{ . }}</span>
+    {{ end }}
+  </div>
 </div>
+
+

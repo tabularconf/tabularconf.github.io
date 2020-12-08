@@ -502,8 +502,6 @@ nav {
 }
 
 
-
-
 .speech-title {
   padding-top: 10px;
   font-size: 2em;
@@ -520,6 +518,49 @@ nav {
 .speakers-item p {
   font-size: 1.4em;
 }
+/* =============================================================================
+   TALKS
+   ========================================================================== */
+.talk-abstract{
+  font-size: 1.4em;
+}
+
+.talk-first-header {
+  font-size: 2em;
+}
+.talk-topic{
+  background-color: purple;
+  color: white;
+  font-size: 1.4em;
+  padding: 0.5em;
+}
+
+.talk-slot {
+  border: 1px solid #e7e7e7;
+  background: #fff;
+  border-radius: 4px;
+  padding: 25px;
+}
+
+.talk-vertical-line {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  border-left: 3px dotted purple;
+  transform: translate(-50%);
+}
+
+.talk-vertical-line-content{
+  margin: 0px auto;
+  width: 50%;
+  height: 50px;
+  position: relative;
+  text-align: center
+}
+
 /* =============================================================================
    SCHEDULE
    ========================================================================== */
