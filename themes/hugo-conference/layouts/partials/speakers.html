@@ -4,7 +4,7 @@
 
 <ul class="speakers-list">
 {{ range $speaker := (where .schedule "presentation" "ne" nil) }}
-  <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+  <li id="{{ $speaker.id }}" class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
     {{ with .photo }}
       <span class="speaker-photo">
         <img class="photo" src="{{ . }}" alt="{{ $speaker.name }}" itemprop="image">
