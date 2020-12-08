@@ -121,8 +121,20 @@ params:
         description: "La visualización de grandes corpus de textos no estructurados escritos en lenguaje natural es una tarea que ha cobrado especial relevancia debido a su capacidad para acelerar la comprensión de los mismos por parte de un observador humano. En esta charla, presentaremos la biblioteca de visualización declarativa “Altair” (https://altair-viz.github.io/) y su gramática subyacente, vega-lite (https://vega.github.io/vega-lite/), a través de un análisis visual de distintas métricas lingüísticas obtenidas a partir de una selección de obras del conocido poeta y dramaturgo español Federico García Lorca (1898-1936)."
         time:   
 
-    - name: "Javi Fernández y Juan Calderón"
-      photo:  img/juan_y_javier.jpg
+    - name: "Javi Fernández"
+      photo:  img/javier.jpg
+      bio: "Javier Fernández Rodriguez. Matemático con Máster en Big Data & Data Science. Actualmente trabaja como Data Scientist in Minsait (Indra) participando en proyectos de IA en distintos sectores. Amante de los deportes y con formación en Sports Analytics, busca acercar la analítica avanzada al mundo del fútbol elaborando proyectos que ayuden en la toma de decisiones."
+      company:
+      link:
+        href:
+        text:
+      presentation:
+        title: "Aplicaciones del Machine Learning al mundo del fútbol."
+        description: "¿Es el mundo del fútbol ajeno a los datos y a la estadística avanzada? Juan nos hablará cómo un modelo predictivo de goles podría generar rentabilidad financiera de corto y largo plazo. Por su parte, Javier, explicará cómo mediante técnicas de ML se podría llegar a predecir cuál hubiera sido el resultado más frecuente en un partido de fútbol basándose en la probabilidad de gol de sus disparos (métrica avanzada conocida en el mundo del fútbol como Expected Goal, xG). Todos estos análisis con open-data y con el uso de la librería de Python streamlit para la creación y despliegue de las diferentes aplicaciones. "
+        time:
+    
+    - name: "Juan Calderón"
+      photo:  img/juan.jpg
       bio: "Juan Francisco Calderón Zumba. Licenciado en Matemáticas con especialización en Estadística y Probabilidad, Ingeniero en Informática, Máster en Finanzas Cuantitativas por la UAB y un MBA en ESADE Business School, actualmente trabaja como Director de Ingeniería en Travelperk y gracias a Machine Learning puede juntar sus dos pasiones, software y matemáticas. Javier Fernández Rodriguez. Matemático con Máster en Big Data & Data Science. Actualmente trabaja como Data Scientist in Minsait (Indra) participando en proyectos de IA en distintos sectores. Amante de los deportes y con formación en Sports Analytics, busca acercar la analítica avanzada al mundo del fútbol elaborando proyectos que ayuden en la toma de decisiones."
       company:
       link:
