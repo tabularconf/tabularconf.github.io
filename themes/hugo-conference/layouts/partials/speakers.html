@@ -24,6 +24,11 @@
       {{ end }}
     </h3>
     <p class="speakers-bio">{{ .bio }}</p>
+    {{ with .twitter }}
+    <span class="twitter">
+      <a href="https://twitter.com/{{ . }}"><img width="25px" class="twitter" src="img/twitter.svg" alt="twitter" itemprop="image"></a>
+    </span>
+  {{ end }}
   </li>
 {{ end }}
 </ul>

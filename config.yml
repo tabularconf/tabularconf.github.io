@@ -27,8 +27,9 @@ params:
     - about
     - topic
     #- location
-    - speakers
     - schedule
+    - speakers
+
     #- sponsors
     - partners
     #- contact
@@ -88,6 +89,7 @@ params:
     - name: Alejandro Samarín
       id: "alejandro-samarin"
       photo: img/alejandro_samarin.jpg
+      twitter: "SamarinAlex"
       bio: "Alex Samarín works as a full-stack engineer at TecAlliance. To keep things fun and diverse, he has also been freelancing as a side job for the last 3 years; this has involved heterogeneous gigs like conducting technical interviews, delivering trainings or implementing data processing pipelines. Besides computing, he likes guitars, climbing, table tennis, lockpicking and scuba diving."
       company: 
         link:
@@ -102,6 +104,7 @@ params:
       id: "miriam-cabrera"
       photo: img/miriam_cabrera.jpg
       bio: "Apasionada del desarrollo de videojuegos y la ciencia de datos. Freelance Unity developer, desarrollando desde un videojuego hasta en realidad virtual. Los gráficos por computador le han el robado el corazón, pero se ha dedicado a la ciencia de datos. Participante de la edición de PlayStation Talents Games Camp 2019 y desarrolladora independiente en Papas con Mojo Games."
+      twitter: "artemismcg"
       company: 
       link:
         href:
@@ -113,9 +116,11 @@ params:
 
     - name: "Anna Julià Verdaguer"
       id: "anna-julia"
+      twitter: "annajv92"
       photo: img/ana_julia_verdaguer.jpg
       bio: "Científica de datos intentando combinar dos de mis grandes pasiones y formaciones: matemáticas y sostenibilidad. En 2016 empecé en Holaluz, y desde entonces me he focalizado en proyectos de energía y modelización de la demanda. Actualmente, trabajo en el equipo de Applied Artificial Intelligence de Eurecat, participando en diferentes proyectos de datos encarados a energía e industria. En 2019, obtuve una beca para participar como estudiante en el programa Data Science for Social Good (DSSG)."
-      company: 
+      company:
+         
       link:
         href:
         text:
@@ -126,6 +131,7 @@ params:
 
 
     - name: "Alejandro Benito Santos"
+      twitter: "alexbensan"
       id: "alejandro-benito"
       photo: img/alejandro_benito.png
       bio: "Alejandro Benito-Santos (https://alexbs.me/) es miembro del grupo de analítica visual y visualización de la información de la Universidad de Salamanca (VisUSAL), donde obtuvo su doctorado desarrollando herramientas y algoritmos visuales orientados a apoyar el diseño de visualizaciones en Humanidades Digitales y otros contextos de investigación interdisciplinarios. Actualmente, alterna sus clases en el diploma experto en bioinformática y genómica computacional de la Universidad de Salamanca con su actividad investigadora en el proyecto europeo PROVIDEDH - PROgressive VIsual DEcision-Making in Digital Humanities (https://providedh.eu/). Alejandro ha publicado sus trabajos en revistas y conferencias como IEEEVIS, IEEE Computer Graphics & Applications, ADHO Digital Humanities, ACM Journal on Computing and Cultural Heritage, o el workshop en visualización para las humanidades digitales (VIS4DH), entre otros."
@@ -140,6 +146,7 @@ params:
 
     - name: "Javi Fernández"
       id: "javi-fernandez"
+      twitter: "javferrod96"
       photo:  img/javier.jpg
       bio: "Javier Fernández Rodriguez. Matemático con Máster en Big Data & Data Science. Actualmente trabaja como Data Scientist in Minsait (Indra) participando en proyectos de IA en distintos sectores. Amante de los deportes y con formación en Sports Analytics, busca acercar la analítica avanzada al mundo del fútbol elaborando proyectos que ayuden en la toma de decisiones."
       company:
@@ -151,10 +158,11 @@ params:
         description: "¿Es el mundo del fútbol ajeno a los datos y a la estadística avanzada? Juan nos hablará cómo un modelo predictivo de goles podría generar rentabilidad financiera de corto y largo plazo. Por su parte, Javier, explicará cómo mediante técnicas de ML se podría llegar a predecir cuál hubiera sido el resultado más frecuente en un partido de fútbol basándose en la probabilidad de gol de sus disparos (métrica avanzada conocida en el mundo del fútbol como Expected Goal, xG). Todos estos análisis con open-data y con el uso de la librería de Python streamlit para la creación y despliegue de las diferentes aplicaciones. "
         time:
     
-    - name: "Juan Calderón"
+    - name: "Juan Francisco Calderón Zumba. "
       id: "juan-calderon"
+      twitter: JFRony
       photo:  img/juan.jpg
-      bio: "Juan Francisco Calderón Zumba. Licenciado en Matemáticas con especialización en Estadística y Probabilidad, Ingeniero en Informática, Máster en Finanzas Cuantitativas por la UAB y un MBA en ESADE Business School, actualmente trabaja como Director de Ingeniería en Travelperk y gracias a Machine Learning puede juntar sus dos pasiones, software y matemáticas. Javier Fernández Rodriguez. Matemático con Máster en Big Data & Data Science. Actualmente trabaja como Data Scientist in Minsait (Indra) participando en proyectos de IA en distintos sectores. Amante de los deportes y con formación en Sports Analytics, busca acercar la analítica avanzada al mundo del fútbol elaborando proyectos que ayuden en la toma de decisiones."
+      bio: "Licenciado en Matemáticas con especialización en Estadística y Probabilidad, Ingeniero en Informática, Máster en Finanzas Cuantitativas por la UAB y un MBA en ESADE Business School, actualmente trabaja como Director de Ingeniería en Travelperk y gracias a Machine Learning puede juntar sus dos pasiones, software y matemáticas. Javier Fernández Rodriguez. Matemático con Máster en Big Data & Data Science. Actualmente trabaja como Data Scientist in Minsait (Indra) participando en proyectos de IA en distintos sectores. Amante de los deportes y con formación en Sports Analytics, busca acercar la analítica avanzada al mundo del fútbol elaborando proyectos que ayuden en la toma de decisiones."
       company:
       link:
         href:
@@ -166,6 +174,7 @@ params:
 
     - name: "Andrés Matesanz"
       id: "andres-matesanz"
+      twitter: "AIMatesanz"
       photo: img/andres_matesanz.jpg
       bio: "Apasionado de las tecnologías, actualmente desarrollador de computer vision en Aeorum y organizador y co-fundador de la sede de Spain AI en Málaga. Estudió Óptica en la Universidad de Valladolid. Posee un Máster propio en desarrollo de realidad virtual y videojuegos y otro en Ingeniería del Software e Inteligencia Artificial en la Universidad de Málaga. Fue en esa misma universidad donde comenzó en 2018 a trabajar en el campo de la Visión por Computador para el proyecto Smart-Campus. Le encanta la música y trastear en sus ratos libres con proyectos relacionados con Machine Learning."
       company: 
@@ -179,6 +188,7 @@ params:
 
     - name: "Maria Medina"
       id: "maria-medina"
+      twitter: "mariamedp"
       photo: img/maria_medina.jpg
       bio: "María Medina trabaja como Data Scientist en Microsoft y co-organiza la comunidad PyLadies Madrid. Estudió informática y matemáticas y encontró la combinación perfecta de ambos campos en el mundo de los datos. Le encanta explorar datos de cualquier tipo, y sus herramientas preferidas para hacer esto son Python y R."
       company: 
@@ -192,6 +202,7 @@ params:
 
     - name: "Paula Moraga"
       id: "paula-moraga"
+      twitter: "Paula_Moraga_"
       photo: img/paula_moraga.jpg
       bio: "Paula Moraga es Profesora de Estadística en King Abdullah University of Science and Technology (KAUST) e Investigadora Principal del grupo GeoHealth. Su investigación se centra en el desarrollo de métodos estadísticos innovadores y herramientas computacionales para el análisis de datos geoespaciales y la vigilancia de la salud, y su trabajo ha contribuido directamente en la elaboración de políticas estratégicas para reducir la carga de enfermedades en varios países. Paula ha desarrollado modelos para comprender los patrones espaciales y espacio-temporales y guiar la implementación de intervenciones para reducir enfermedades como la malaria en África, la leptospirosis en Brasil y el cáncer en Australia, y ha desarrollado varios paquetes de R para la modelización Bayesiana de riesgos, la detección de clusters y la predicción de la propagación de enfermedades por flujos de viajes. Paula ha publicado extensamente en revistas líderes y es autora del libro 'Geospatial Health Data: Modeling and Visualization with R-INLA and Shiny' (2019, Chapman & Hall/CRC). Paula obtuvo su Ph.D. en Matemáticas por la Universidad de Valencia y su Máster en Bioestadística por la Universidad de Harvard."
       company: 
@@ -203,9 +214,11 @@ params:
         description: "Los datos de salud geoespaciales son esenciales para informar las políticas de salud pública. Estos datos pueden utilizarse para cuantificar la carga de enfermedades, comprender patrones geográficos y temporales, identificar factores de riesgo y medir desigualdades. En esta charla, describiré mi investigación que se centra en el desarrollo de métodos geoespaciales y aplicaciones de visualización interactivas para la vigilancia de la salud. Mostraré varios paquetes de R para manipular, modelizar y visualizar datos espaciales y como éstos pueden usarse para predecir el riesgo y guiar la implementación de intervenciones para la eliminación de enfermedades tropicales en varios países. También mostraré los paquetes de R epiflows para la predicción de la propagación de enfermedades por flujos de viajes, y SpatialEpiApp para el mapeo de enfermedades y la detección de clusters. Finalmente, describiré mis futuras líneas de investigación y cómo éstas pueden contribuir a mejorar la salud de la población a nivel global."
         time: 
 
-    - name: "Bea (R-Ladies)"
-      photo: 
-      bio: "init"
+    - name: "Beatriz Hernández"
+      twitter: "Chucheria"
+      id: "beatriz-hernandez"
+      photo: "img/bea.jpg"
+      bio: "Senior Data Scientist en Urban Data Analytics. Coorganizadora de R-Ladies Madrid."
       company: 
       link:
         href:
@@ -216,6 +229,16 @@ params:
         time:
 
   Talks:
+
+    - title: "Ciencia de datos geoespaciales para la vigilancia de la salud pública"
+      authors:
+       - author: "Paula Moraga"
+         author_id: "paula-moraga"
+      abstract: "Los datos de salud geoespaciales son esenciales para informar las políticas de salud pública. Estos datos pueden utilizarse para cuantificar la carga de enfermedades, comprender patrones geográficos y temporales, identificar factores de riesgo y medir desigualdades. En esta charla, describiré mi investigación que se centra en el desarrollo de métodos geoespaciales y aplicaciones de visualización interactivas para la vigilancia de la salud. Mostraré varios paquetes de R para manipular, modelizar y visualizar datos espaciales y como éstos pueden usarse para predecir el riesgo y guiar la implementación de intervenciones para la eliminación de enfermedades tropicales en varios países. También mostraré los paquetes de R epiflows para la predicción de la propagación de enfermedades por flujos de viajes, y SpatialEpiApp para el mapeo de enfermedades y la detección de clusters. Finalmente, describiré mis futuras líneas de investigación y cómo éstas pueden contribuir a mejorar la salud de la población a nivel global."
+      time: "09:00 am"
+      topics:
+        - "Geospatial health data"
+
     - title: "Masajeando datos: ETLs en la nube con Data Fusion"
       authors:
         - author: "Alejandro Samarín"
@@ -229,7 +252,7 @@ params:
     - title: "Dime cómo juegas y me adaptaré a quién eres"
       authors:
         - author: "Miriam Cabrera Galván"
-        - author_id: "miriam-cabrera"
+          author_id: "miriam-cabrera"
       abstract: "¿Por qué los juegos móviles enganchan tanto? ¿Por qué la monetización en los juegos cambia constantemente? ¿Por qué los juegos se adaptan tan bien a su target? En la respuesta a estas preguntas hay un factor importante que ayuda a los diseñadores de videojuegos, ¡la ciencia de datos! En esta charla, analizaremos el importante papel de este campo en el mercado de juegos móvil. Veremos casos de ejemplo para ver cómo las métricas ayudan al engagement, posicionamiento, compras...¡Dale al play!"
       time: "10:30 am"
       topics:
@@ -238,7 +261,7 @@ params:
     - title: "”La luna deja un histograma abandonado en el aire”; Una introducción a la visualización de textos en Python con Vega-lite y Altair de la mano de F. García Lorca"
       authors:
         - author: "Alejandro Benito Santos"
-        - author_id: "alejandro-benito"
+          author_id: "alejandro-benito"
       abstract: "La visualización de grandes corpus de textos no estructurados escritos en lenguaje natural es una tarea que ha cobrado especial relevancia debido a su capacidad para acelerar la comprensión de los mismos por parte de un observador humano. En esta charla, presentaremos la biblioteca de visualización declarativa “Altair” (https://altair-viz.github.io/) y su gramática subyacente, vega-lite (https://vega.github.io/vega-lite/), a través de un análisis visual de distintas métricas lingüísticas obtenidas a partir de una selección de obras del conocido poeta y dramaturgo español Federico García Lorca (1898-1936)."
       time: "11:00 am"
       topics:
@@ -264,6 +287,7 @@ params:
       time: "12:00 am"
       topics:
         - "Computer Vision"
+        - "Deep learning"
 
     - title: "MLOps: cómo poner tus sistemas de machine learning en producción"
       authors:
@@ -274,20 +298,20 @@ params:
       topics:
         - "DevOps y MLOps"
 
-    - title: "Ciencia de datos geoespaciales para la vigilancia de la salud pública"
-      authors:
-       - author: "Paula Moraga"
-         author_id: "paula-moraga"
-      abstract: "Los datos de salud geoespaciales son esenciales para informar las políticas de salud pública. Estos datos pueden utilizarse para cuantificar la carga de enfermedades, comprender patrones geográficos y temporales, identificar factores de riesgo y medir desigualdades. En esta charla, describiré mi investigación que se centra en el desarrollo de métodos geoespaciales y aplicaciones de visualización interactivas para la vigilancia de la salud. Mostraré varios paquetes de R para manipular, modelizar y visualizar datos espaciales y como éstos pueden usarse para predecir el riesgo y guiar la implementación de intervenciones para la eliminación de enfermedades tropicales en varios países. También mostraré los paquetes de R epiflows para la predicción de la propagación de enfermedades por flujos de viajes, y SpatialEpiApp para el mapeo de enfermedades y la detección de clusters. Finalmente, describiré mis futuras líneas de investigación y cómo éstas pueden contribuir a mejorar la salud de la población a nivel global."
-      time: "13:00 am"
-      topics:
-        - "Geospatial health data"
-
     - title: "Mitigating Eviction Risk for Residents in the City of Dallas"
       authors:
        - author: "Anna Julià Verdaguer"
-         author_id: "ana-julia-verdaguer"
+         author_id: "ana-julia"
       abstract: "La crisis de la COVID-19 ha acentuado, entre otras problemáticas sociales, la inestabilidad en la vivienda que sufre un gran número de personas en todo el mundo. Generar políticas públicas y llevar a cabo acciones para mitigarla son una de las prioridades para muchas instituciones públicas y ONGs. Éste ha sido el caso de nuestros colaboradores de The City of Dallas y Child Poverty Action Lab. Con ellos, y dentro del contexto de la plataforma Solve for Good (https://solveforgood.org/), hemos trabajado conjuntamente durante meses para analizar el impacto de los desahucios y entender qué comunidades sufren mayores efectos negativos y mayor inestabilidad residencial. En esta charla, explicaremos en más detalle el proyecto y todas sus dimensiones por lo que a datos y análisis se refiere."
       time: "13:30 am"
       topics:
         - "Análisis de datos"
+
+    - title: "Pinta y deep-colorea"
+      authors:
+       - author: "Beatriz Hernández"
+         author_id: "beatriz-hernandez"
+      abstract: "Uno de los múltiples usos de las redes neuronales es su aplicación al arte, y con esto no hablo de transferir estilos, si no de crear el tuyo propio. Vamos a dibujar y colorear con redes neuronales, desde el lienzo en blanco."
+      time: "16:00 pm"
+      topics:
+        - "Deep learning"
