@@ -7,8 +7,8 @@ GoogleAnalytics: ""
 
 params:
   # Conference info
-  Title: "tabularConf"
-  Name: "tabular"
+  Title: "TabularConf"
+  Name: "Tabular"
   Extraname: "Conf"
   Description: "On the edge of datascience"
   Date: "30 de enero 2021"
