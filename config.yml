@@ -111,6 +111,20 @@ params:
         description: "¿Por qué los juegos móviles enganchan tanto? ¿Por qué la monetización en los juegos cambia constantemente? ¿Por qué los juegos se adaptan tan bien a su target? En la respuesta a estas preguntas hay un factor importante que ayuda a los diseñadores de videojuegos, ¡la ciencia de datos! En esta charla, analizaremos el importante papel de este campo en el mercado de juegos móvil. Veremos casos de ejemplo para ver cómo las métricas ayudan al engagement, posicionamiento, compras...¡Dale al play!"
         time:
 
+    - name: "Anna Julià Verdaguer"
+      id: "anna-julia"
+      photo: img/ana_julia_verdaguer.jpg
+      bio: "Científica de datos intentando combinar dos de mis grandes pasiones y formaciones: matemáticas y sostenibilidad. En 2016 empecé en Holaluz, y desde entonces me he focalizado en proyectos de energía y modelización de la demanda. Actualmente, trabajo en el equipo de Applied Artificial Intelligence de Eurecat, participando en diferentes proyectos de datos encarados a energía e industria. En 2019, obtuve una beca para participar como estudiante en el programa Data Science for Social Good (DSSG)."
+      company: 
+      link:
+        href:
+        text:
+      presentation:
+        title: "Dime cómo juegas y me adaptaré a quién eres"
+        description: "¿Por qué los juegos móviles enganchan tanto? ¿Por qué la monetización en los juegos cambia constantemente? ¿Por qué los juegos se adaptan tan bien a su target? En la respuesta a estas preguntas hay un factor importante que ayuda a los diseñadores de videojuegos, ¡la ciencia de datos! En esta charla, analizaremos el importante papel de este campo en el mercado de juegos móvil. Veremos casos de ejemplo para ver cómo las métricas ayudan al engagement, posicionamiento, compras...¡Dale al play!"
+        time:
+
+
     - name: "Alejandro Benito Santos"
       id: "alejandro-benito"
       photo: img/alejandro_benito.png
@@ -202,7 +216,78 @@ params:
         time:
 
   Talks:
-    - title: "whatever"
-      author: "something"
-      abstract: "whatever2"
-      time: ""
+    - title: "Masajeando datos: ETLs en la nube con Data Fusion"
+      authors:
+        - author: "Alejandro Samarín"
+          author_id: "alejandro-samarin"
+      abstract: "Building efficient and reliable data pipelines can be a time-consuming task. There are many aspects to consider; infrastructure, code, data ingress/egress, reporting, metrics, etc. Data Fusion is Google's answer to this problem, offering a managed CDAP environment to create data processing pipelines using an intuitive visual interface, with the added benefit of tight integration with the rest of Google Cloud Platform services and APIs. We'll take a tour around Data Fusion, build a real processing pipeline, throw some data at it and discuss pros and cons of this approach to ETL."
+      time: "10:00 am"
+      topics:
+        - "Data Engineering"
+        
+
+    - title: "Dime cómo juegas y me adaptaré a quién eres"
+      authors:
+        - author: "Miriam Cabrera Galván"
+        - author_id: "miriam-cabrera"
+      abstract: "¿Por qué los juegos móviles enganchan tanto? ¿Por qué la monetización en los juegos cambia constantemente? ¿Por qué los juegos se adaptan tan bien a su target? En la respuesta a estas preguntas hay un factor importante que ayuda a los diseñadores de videojuegos, ¡la ciencia de datos! En esta charla, analizaremos el importante papel de este campo en el mercado de juegos móvil. Veremos casos de ejemplo para ver cómo las métricas ayudan al engagement, posicionamiento, compras...¡Dale al play!"
+      time: "10:30 am"
+      topics:
+        - "Análisis de datos"
+
+    - title: "”La luna deja un histograma abandonado en el aire”; Una introducción a la visualización de textos en Python con Vega-lite y Altair de la mano de F. García Lorca"
+      authors:
+        - author: "Alejandro Benito Santos"
+        - author_id: "alejandro-benito"
+      abstract: "La visualización de grandes corpus de textos no estructurados escritos en lenguaje natural es una tarea que ha cobrado especial relevancia debido a su capacidad para acelerar la comprensión de los mismos por parte de un observador humano. En esta charla, presentaremos la biblioteca de visualización declarativa “Altair” (https://altair-viz.github.io/) y su gramática subyacente, vega-lite (https://vega.github.io/vega-lite/), a través de un análisis visual de distintas métricas lingüísticas obtenidas a partir de una selección de obras del conocido poeta y dramaturgo español Federico García Lorca (1898-1936)."
+      time: "11:00 am"
+      topics:
+        - "Análisis de datos"
+
+    - title: "Aplicaciones del Machine Learning al mundo del fútbol."
+      authors:
+       - author: "Javi Fernandez"
+         author_id: "javi-fernandez"
+       - author: "Juan Calderón"
+         author_id: "juan-calderon"
+      abstract: "¿Es el mundo del fútbol ajeno a los datos y a la estadística avanzada? Juan nos hablará cómo un modelo predictivo de goles podría generar rentabilidad financiera de corto y largo plazo. Por su parte, Javier, explicará cómo mediante técnicas de ML se podría llegar a predecir cuál hubiera sido el resultado más frecuente en un partido de fútbol basándose en la probabilidad de gol de sus disparos (métrica avanzada conocida en el mundo del fútbol como Expected Goal, xG). Todos estos análisis con open-data y con el uso de la librería de Python streamlit para la creación y despliegue de las diferentes aplicaciones. "
+      time: "11:30 am"
+      topics:
+        - "Análisis de datos"
+        - "Machine Learning"
+
+    - title: "Identifica a tu mascota con Computer Vision."
+      authors:
+       - author: "Andrés Matesanz"
+         author_id: "andres-matesanz"
+      abstract: "¿Eres de esas personas que les gusta trastear con la tecnología y llevar a cabo sus propios proyectos? ¿Te gustaría crear tu propio detector usando redes neuronales pero no sabes cómo? Descubre el pipeline completo que se esconde detrás del desarrollo y entrenamiento de Redes Neuronales Convolucionales para la detección de objetos. Mostraremos con código todos los pasos, desde la constucción del dataset a su entrenamiento pasando por el etiquetado. Para ello simplificaremos el proceso haciendo uso de la librería de python ImageAI y descubrirás cómo llevarlo a la práctica creando un verdadero detector de mascotas."
+      time: "12:00 am"
+      topics:
+        - "Computer Vision"
+
+    - title: "MLOps: cómo poner tus sistemas de machine learning en producción"
+      authors:
+       - author: "Maria Medina"
+         author_id: "maria-medina"
+      abstract: "Más allá de la parte experimental, los proyectos de data science pueden dar lugar a sistemas muy complejos y difíciles de mantener, que acabarán abandonados en un rincón si no aplicamos buenas prácticas de ingeniería del software a la hora de poner nuestros modelos en producción. Pero el mundo data science tiene unas características distintas a las del desarrollo tradicional, y por tanto muchas veces no queda claro cómo aplicar estas prácticas a los sistemas de machine learning. En esta charla haremos un repaso de las principales prácticas de la cultura DevOps y veremos cómo se pueden adaptar a proyectos de data science para generar un pipeline end-to-end de entrenamiento y despliegue de modelos de forma automática."
+      time: "12:30 am"
+      topics:
+        - "DevOps y MLOps"
+
+    - title: "Ciencia de datos geoespaciales para la vigilancia de la salud pública"
+      authors:
+       - author: "Paula Moraga"
+         author_id: "paula-moraga"
+      abstract: "Los datos de salud geoespaciales son esenciales para informar las políticas de salud pública. Estos datos pueden utilizarse para cuantificar la carga de enfermedades, comprender patrones geográficos y temporales, identificar factores de riesgo y medir desigualdades. En esta charla, describiré mi investigación que se centra en el desarrollo de métodos geoespaciales y aplicaciones de visualización interactivas para la vigilancia de la salud. Mostraré varios paquetes de R para manipular, modelizar y visualizar datos espaciales y como éstos pueden usarse para predecir el riesgo y guiar la implementación de intervenciones para la eliminación de enfermedades tropicales en varios países. También mostraré los paquetes de R epiflows para la predicción de la propagación de enfermedades por flujos de viajes, y SpatialEpiApp para el mapeo de enfermedades y la detección de clusters. Finalmente, describiré mis futuras líneas de investigación y cómo éstas pueden contribuir a mejorar la salud de la población a nivel global."
+      time: "13:00 am"
+      topics:
+        - "Geospatial health data"
+
+    - title: "Mitigating Eviction Risk for Residents in the City of Dallas"
+      authors:
+       - author: "Anna Julià Verdaguer"
+         author_id: "ana-julia-verdaguer"
+      abstract: "La crisis de la COVID-19 ha acentuado, entre otras problemáticas sociales, la inestabilidad en la vivienda que sufre un gran número de personas en todo el mundo. Generar políticas públicas y llevar a cabo acciones para mitigarla son una de las prioridades para muchas instituciones públicas y ONGs. Éste ha sido el caso de nuestros colaboradores de The City of Dallas y Child Poverty Action Lab. Con ellos, y dentro del contexto de la plataforma Solve for Good (https://solveforgood.org/), hemos trabajado conjuntamente durante meses para analizar el impacto de los desahucios y entender qué comunidades sufren mayores efectos negativos y mayor inestabilidad residencial. En esta charla, explicaremos en más detalle el proyecto y todas sus dimensiones por lo que a datos y análisis se refiere."
+      time: "13:30 am"
+      topics:
+        - "Análisis de datos"
