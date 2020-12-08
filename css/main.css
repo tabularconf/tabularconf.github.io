@@ -323,9 +323,11 @@ p {
   justify-content: center;
   align-items: center;
   text-align: center;
-
-
 }
+
+
+
+
 
 .footer-content{
   display: inline-block;
@@ -492,12 +494,16 @@ nav {
 }
 .speaker-photo {
   position: absolute;
-  top: 0;
+  top: 25%;
   left: 0;
   display: block;
   width: 120px;
   height: 120px;
 }
+
+
+
+
 .speech-title {
   padding-top: 10px;
   font-size: 2em;
