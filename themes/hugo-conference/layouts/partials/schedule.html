@@ -5,36 +5,28 @@
   <table>
     <thead>
       <tr>
-        <th class="schedule-time">Tiempo</th>
+        <th class="schedule-time">Hora</th>
         <th class="schedule-slot">Título</th>
-        <th class="schedule-description">Descripción</th>
+        <th class="schedule-description">Abstract</th>
       </tr>
     </thead>
     <tbody>
-      {{ range $slot := .schedule }}
-        {{ if ne .presentation nil }}
-          <tr>
-            <td class="schedule-time">{{ .presentation.time }}</td>
-            <td class="schedule-slot">
-            {{ with .photo }}
-              <!--<span class="speaker-photo">
-                <img class="photo" src="{{ . }}" alt="{{ $slot.name }}">
-              </span>-->
-            {{ end }}
+      {{ range $slot := .talks }}
+        <tr>
+          <td class="schedule-time">{{ .time }}</td>
+          <td class="schedule-slot">
+          {{ with .photo }}
+            <!--<span class="speaker-photo">
+              <img class="photo" src="{{ . }}" alt="{{ $slot.name }}">
+            </span>-->
+          {{ end }}
 
-              {{ .presentation.title }} ({{ .name }})
-              <!--<span class="speakers-company">{{ .company }}</span>-->
-            </td>
-            
-            <td class="schedule-description">{{ .presentation.description }}</td>
-          </tr>
-        {{ else }}
-          <tr class="schedule-other">
-            <td class="schedule-time">{{ .time }}</td>
-            <td class="schedule-slot">{{ .name }}</td>
-            <td class="schedule-description">-</td>
-          </tr>
-        {{ end }}
+            {{ .title }} ({{ .author }})
+            <!--<span class="speakers-company">{{ .company }}</span>-->
+          </td>
+          
+          <td class="schedule-description">{{ .abstract }}</td>
+        </tr>
       {{ end }}
     </tbody>
   </table>

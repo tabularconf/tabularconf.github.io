@@ -11,9 +11,9 @@ params:
   Name: "tabular"
   Extraname: "Conf"
   Description: "On the edge of datascience"
-  Date: "30 de Enero 2021"
+  Date: "30 de enero 2021"
   #Price: "Only $100" # If your event is free, just comment this line
-  #Twitter: "@prueba"
+  #Twitter: "@TabularConf"
   Venue: "2020"
   #Address: "Boulevard Kukulcan, 30"
   City:  "Online"
@@ -180,3 +180,9 @@ params:
         title: "TBD"
         description: "TBD "
         time:
+
+  Talks:
+    - title: "whatever"
+      author: "something"
+      abstract: "whatever2"
+      time: ""
