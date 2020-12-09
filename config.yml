@@ -1,5 +1,5 @@
 baseurl: "https://tabularconf.es"
-title: "Conference name"
+title: "TabularConf"
 canonifyurls: true
 theme: "hugo-conference"
 
