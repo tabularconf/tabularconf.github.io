@@ -3,7 +3,7 @@ title: "TabularConf"
 canonifyurls: true
 theme: "hugo-conference"
 
-GoogleAnalytics: ""
+GoogleAnalytics: "UA-185266055-1"
 
 params:
   # Conference info
@@ -30,7 +30,7 @@ params:
     - schedule
     - speakers
 
-    #- sponsors
+    - sponsors
     - partners
     #- contact
 
@@ -41,7 +41,7 @@ params:
     location: "Location"
     speakers: "Ponentes"
     schedule: "Agenda"
-    sponsors: "Sponsors"
+    sponsors: "Patrocina"
     partners: "Organiza"
     contact: "Contact"
 
@@ -57,9 +57,11 @@ params:
 
   # List of Sponsors
   Sponsors:
-    - name: "Hugo"
-      logo: "/img/hugo.png"
-      url: "http://gohugo.io"
+    - name: "Microsoft"
+      logo: "/img/microsoft_logo.png"
+      url: "https://microsoft.es/"
+
+
 
   # List of Partners
   Partners:
@@ -81,6 +83,9 @@ params:
     - name: "Python Málaga"
       logo: "/img/python_malaga.png"
       url: "https://www.python-malaga.es/"
+    - name: "ISTAC"
+      logo: "/img/istac_logo.png"
+      url: "http://www.gobiernodecanarias.org/istac/"
 
   # The entire schedule
   Schedule:
