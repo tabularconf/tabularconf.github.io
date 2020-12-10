@@ -914,6 +914,9 @@ h6 {
 .logo-link img {
   width: 16rem;
 }
+.logo-link[title~="Tabular"] {
+  font-size: 9rem;
+}
 .tagline {
   font-weight: normal;
   color: yellow;
@@ -1104,6 +1107,12 @@ h6 {
   }
   .description {
     font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .logo-link[title~="Tabular"] {
+    font-size: 8rem;
   }
 }
 
