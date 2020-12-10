@@ -1117,14 +1117,15 @@ h6 {
 }
 
 @media only screen and (max-width: 480px) {
-  /* speakers */
-  .header {
-    /*background-size: auto 100%;*/
-  }
   .description {
     font-size: 16px;
   }
-
+  .logo-name {
+    line-height: 8rem;
+  }
+  .logo-link[title~="Tabular"] {
+    font-size: 6rem;
+  }
   .speaker-photo .photo {
     box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.07);
   }
