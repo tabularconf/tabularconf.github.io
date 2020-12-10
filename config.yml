@@ -29,9 +29,9 @@ params:
     #- location
     - schedule
     - speakers
-
-    - sponsors
     - partners
+    - sponsors
+    - contributors
     #- contact
 
   # Titles which you can translate to other languages
@@ -44,6 +44,7 @@ params:
     sponsors: "Patrocina"
     partners: "Organiza"
     contact: "Contact"
+    contributors: "Colabora"
 
   # The Call To Action button at the header,
   # If you don't want this, just remove the callToAction property.
@@ -61,7 +62,14 @@ params:
       logo: "/img/microsoft_logo.png"
       url: "https://microsoft.es/"
 
+  Contributors:
+    - name: "ISTAC"
+      logo: "/img/istac_logo.png"
+      url: "http://www.gobiernodecanarias.org/istac/"
 
+    - name: "Python Chile"
+      logo: "/img/python_chile_logo.png"
+      url: "https://pythonchile.cl/"
 
   # List of Partners
   Partners:
@@ -83,9 +91,7 @@ params:
     - name: "Python Málaga"
       logo: "/img/python_malaga.png"
       url: "https://www.python-malaga.es/"
-    - name: "ISTAC"
-      logo: "/img/istac_logo.png"
-      url: "http://www.gobiernodecanarias.org/istac/"
+
 
   # The entire schedule
   Schedule:
