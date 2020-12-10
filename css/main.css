@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Campton";
+  src: url("../fonts/Campton-SemiBold.otf");
+}
+
 /* =============================================================================
    RESET
    ========================================================================== */
@@ -106,7 +111,7 @@ code,
 kbd,
 samp {
   font-family: monospace, serif;
-  _font-family: 'courier new', monospace;
+  _font-family: "courier new", monospace;
   font-size: 1em;
 }
 pre {
@@ -286,6 +291,10 @@ hr {
 .content section {
   padding-top: 50px;
 }
+.section-title {
+  font-family: Campton;
+  font-size: 5rem;
+}
 /* =============================================================================
    BASIC STYLES
    ========================================================================== */
@@ -294,7 +303,7 @@ h3,
 h4 {
   font-size: 5em;
   font-weight: normal;
-  margin-bottom: .4em;
+  margin-bottom: 0.4em;
   letter-spacing: -0.02em;
 }
 h3 {
@@ -325,14 +334,8 @@ p {
   text-align: center;
 }
 
-
-
-
-
-.footer-content{
+.footer-content {
   color: white;
-  
-  
 }
 /*
 .footer-content a{
@@ -354,28 +357,29 @@ p {
   font-size: 20px;
   background: purple;
   padding: 20px;
+  padding-top: 2.5rem;
   border-radius: 5px;
   letter-spacing: 1px;
   display: inline-block;
   border: none;
   transition: all 0.4s ease 0s;
-  }
+}
 
-  .inscription:hover {
-    background: #434343;
-    letter-spacing: 1px;
-    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
-    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
-    box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
-    transition: all 0.4s ease 0s;
-    }
+.inscription:hover {
+  background: #434343;
+  letter-spacing: 1px;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
+  transition: all 0.4s ease 0s;
+}
 
-  .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 20%;
-    }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
 /* =============================================================================
    NAVIGATION
    ========================================================================== */
@@ -384,10 +388,16 @@ nav {
   position: fixed;
   width: 100%;
   z-index: 10;
+  height: 2rem;
+  box-shadow: 0px 6px 15px 0px rgba(50, 50, 50, 0.75);
+  background: #484848;
 }
 .nav-item {
   display: inline-block;
   margin-right: 15px;
+  font-family: Campton;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
 }
 .nav-link {
   font-size: 1.4em;
@@ -398,20 +408,20 @@ nav {
 .header {
   padding: 100px 0 100px;
   text-align: center;
+  font-family: Campton;
 }
 .logo-name {
   margin-bottom: 0;
   font-size: 10em;
   letter-spacing: -0.04em;
 }
-.tagline {
-  margin-bottom: 50px;
-  font-size: 2em;
+h2.tagline {
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  font-size: 2.5em;
   letter-spacing: -0.02em;
-  color: yellow;
-  
+  color: #ffffffbf;
 }
-
 
 .call-action-area .price {
   font-size: 4em;
@@ -468,7 +478,7 @@ nav {
   margin: 5px;
 }
 .topics-in img {
-  width: 50px
+  width: 50px;
 }
 
 .topics-in {
@@ -478,7 +488,7 @@ nav {
 }
 
 .topic-logo {
-  width: 60px
+  width: 60px;
 }
 
 /* =============================================================================
@@ -490,6 +500,7 @@ nav {
   padding-left: 180px;
   margin-bottom: 30px;
   border-bottom: 1px dashed #e7e7e7;
+  padding-bottom: 1rem;
 }
 .speaker-photo {
   position: absolute;
@@ -499,7 +510,6 @@ nav {
   width: 120px;
   height: 120px;
 }
-
 
 .speech-title {
   padding-top: 10px;
@@ -520,14 +530,14 @@ nav {
 /* =============================================================================
    TALKS
    ========================================================================== */
-.talk-abstract{
+.talk-abstract {
   font-size: 1.4em;
 }
 
 .talk-first-header {
   font-size: 2em;
 }
-.talk-topic{
+.talk-topic {
   background-color: purple;
   color: white;
   font-size: 1.4em;
@@ -552,12 +562,12 @@ nav {
   transform: translate(-50%);
 }
 
-.talk-vertical-line-content{
+.talk-vertical-line-content {
   margin: 0px auto;
   width: 50%;
   height: 50px;
   position: relative;
-  text-align: center
+  text-align: center;
 }
 
 /* =============================================================================
@@ -610,6 +620,10 @@ nav {
   display: inline-block;
   margin: 0 30px 30px 0;
 }
+.sponsor-item:hover,
+.partner-item:hover {
+  box-shadow: 0px 5px 8px 0px rgb(65 24 70 / 47%);
+}
 .sponsor--link,
 .partner-link {
   display: block;
@@ -625,7 +639,7 @@ nav {
 .form label {
   font-size: 16px;
   display: block;
-  margin-bottom: .5em;
+  margin-bottom: 0.5em;
 }
 .control-group {
   height: auto;
@@ -642,8 +656,8 @@ nav {
 .control-group-email {
   margin-right: 0;
 }
-.form input[type=text],
-.form input[type=email],
+.form input[type="text"],
+.form input[type="email"],
 .form textarea {
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
@@ -736,32 +750,32 @@ nav {
 
 @media screen and (max-width: 600px) {
   table {
-      width:100%;
+    width: 100%;
   }
   thead {
-      display: none;
+    display: none;
   }
   tr:nth-of-type(2n) {
-      background-color: inherit;
+    background-color: inherit;
   }
   tr td:first-child {
-      background: #f0f0f0;
-      font-weight:bold;
-      font-size:1.3em;
+    background: #f0f0f0;
+    font-weight: bold;
+    font-size: 1.3em;
   }
   tbody td {
-      display: block;
-      text-align:center;
+    display: block;
+    text-align: center;
   }
   tbody td:before {
-      content: attr(data-th);
-      display: block;
-      text-align:center;
+    content: attr(data-th);
+    display: block;
+    text-align: center;
+  }
+  nav {
+    height: 5rem;
   }
 }
-
-
-
 
 @media only screen and (max-width: 480px) {
   /* nav */
@@ -821,7 +835,7 @@ nav {
   .speech-title {
     padding-top: 0;
     font-size: 16px;
-    margin-bottom: .3em;
+    margin-bottom: 0.3em;
   }
   .speech-time {
     font-size: 16px;
@@ -831,7 +845,7 @@ nav {
 @media only screen and (max-width: 321px) {
   .logo-name {
     font-size: 4em;
-    margin-bottom: .4em;
+    margin-bottom: 0.4em;
   }
   .schedule-tbl .schedule-description {
     display: none;
@@ -855,7 +869,7 @@ nav {
    MAIN LAYOUT
    ========================================================================== */
 html {
-  background: #F6F6F6;
+  background: #f6f6f6;
   font: normal normal 10px/1.2em helvetica, arial, sans-serif;
   color: #777;
 }
@@ -873,9 +887,6 @@ h6 {
 /* =============================================================================
    NAVIGATION
    ========================================================================== */
-nav {
-  background: #2b2b2b;
-}
 .nav-link {
   color: #e7e7e7;
 }
@@ -889,17 +900,22 @@ nav {
    HEADER
    ========================================================================== */
 .header {
-  background-image: url('../img/cover.jpg');
+  background-image: url("../img/cover.jpg");
   background-color: #2b2b2b;
   background-repeat: no-repeat;
   background-position: center bottom;
-
 }
 .logo-link,
 .tagline,
 .call-action-area .price {
   color: #fff;
   text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.3);
+}
+.logo-link img {
+  width: 16rem;
+}
+.logo-link[title~="Tabular"] {
+  font-size: 9rem;
 }
 .tagline {
   font-weight: normal;
@@ -908,12 +924,14 @@ nav {
 }
 .description {
   font-size: 30px;
-  color: rebeccapurple;
+  color: #3e126b;
   font-weight: bold;
   padding: 10px;
   padding-inline: 25px;
-  background-color:rgba(200, 160, 235, 0.7);
-
+  background-color: rgba(200, 160, 235, 0.7);
+  border-radius: 0.8rem;
+  display: inline-block;
+  margin-top: 2rem;
 }
 .extralogo {
   color: lightgray;
@@ -931,7 +949,8 @@ nav {
   background-image: linear-gradient(top, #fddd52 30%, #f0a303 150%);
   color: #2b2b2b;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
-  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.4), inset 0 -2px 3px 0 #cc7f0a, inset 0 1px 0 0 #fff9b1;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.4), inset 0 -2px 3px 0 #cc7f0a,
+    inset 0 1px 0 0 #fff9b1;
   border-radius: 40px;
 }
 .github-link {
@@ -954,12 +973,9 @@ nav {
   color: rebeccapurple;
   text-decoration: underline;
 }
-.content{
+.content {
   font-size: 10px;
 }
-
-
-
 
 /* =============================================================================
    ABOUT
@@ -969,7 +985,6 @@ nav {
   background: #fff;
   border-radius: 4px;
 }
-
 
 /* =============================================================================
    LOCATION
@@ -1016,7 +1031,7 @@ nav {
 .schedule-tbl th {
   border-bottom: 1px solid #e7e7e7;
 }
-.schedule-tbl tbody tr:nth-child(2n+1) {
+.schedule-tbl tbody tr:nth-child(2n + 1) {
   background: #f6f6f6;
 }
 .schedule-tbl th {
@@ -1060,16 +1075,16 @@ nav {
 /* =============================================================================
    CONTACT
    ========================================================================== */
-.form input[type=text],
-.form input[type=email],
+.form input[type="text"],
+.form input[type="email"],
 .form textarea {
   color: #777;
   border: 1px solid #e7e7e7;
   background: #fff;
   border-radius: 4px;
 }
-.form input[type=text]:focus,
-.form input[type=email]:focus,
+.form input[type="text"]:focus,
+.form input[type="email"]:focus,
 .form textarea:focus {
   border-color: #aaa;
   outline: 0;
@@ -1085,13 +1100,19 @@ nav {
     font-size: 16px;
   }
 }
- 
- @media only screen and (max-width: 768px) {
+
+@media only screen and (max-width: 768px) {
   .header {
     /*background-size: 120%;*/
   }
   .description {
     font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .logo-link[title~="Tabular"] {
+    font-size: 8rem;
   }
 }
 
@@ -1120,10 +1141,6 @@ nav {
   }
 }
 
-
-
-
-
 footer {
   background-color: black;
   color: #bbb;
@@ -1142,15 +1159,15 @@ footer a {
 }
 /* Sticks footer to bottom */
 
-
 /* Footer main */
-
-
 
 .ft-main {
   padding: 1.25rem 1.875rem;
   display: flex;
   flex-wrap: wrap;
+}
+.ft-main a:hover {
+  text-decoration: underline;
 }
 @media only screen and (min-width: 29.8125rem /* 477px */) {
   .ft-main {
@@ -1170,6 +1187,7 @@ footer a {
 
 .ft-social {
   padding: 0 1.875rem 1.25rem;
+  background-color: #333333;
 }
 .ft-social-list {
   display: flex;
@@ -1181,4 +1199,11 @@ footer a {
   margin: 0.5rem;
   font-size: 1.25rem;
 }
-
+.ft-social-list i {
+  font-size: 4rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.ft-social-list i:hover {
+  color: #964196;
+}
