@@ -3,7 +3,7 @@ title: "TabularConf"
 canonifyurls: true
 theme: "hugo-conference"
 
-GoogleAnalytics: "UA-185266055-1"
+GoogleAnalytics: ""
 
 params:
   # Conference info
