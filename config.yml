@@ -71,6 +71,14 @@ params:
       logo: "/img/python_chile_logo.png"
       url: "https://pythonchile.cl/"
 
+    - name: "Spain AI"
+      logo: "img/spainAI.jpg"
+      url: "https://www.spain-ai.com/"
+
+    - name: "ANBAN"
+      logo: "img/logo-anban2.png"
+      url: "https://asociacionbigdata.es/"
+
   # List of Partners
   Partners:
     - name: "Python España"
@@ -239,7 +247,7 @@ params:
     - name: "Jason Jiménez Cruz"
       twitter:
       id: "jason-jimenez"
-      photo:
+      photo: "img/JasonJimenez.png"
       bio: "De Madrid, desarrollador FullStack (Python, Javascript, C#, Kotlin) y Data Scientist (Python, R), amante de las arquitecturas de microservicios y sistemas de recomendación, me gusta todo el proceso de exploración de datasets y creación de nuevos. En mis tiempos libres me dedico a la programación de videojuegos, modelaje 3D y música."
       company:
       link:
@@ -253,7 +261,7 @@ params:
     - name: "Samir Guillen"
       twitter:
       id: "samir-guillen"
-      photo:
+      photo: "img/SamirGuillen.png"
       bio: "Desarrollador FullStack, realicé el grado en ingeniería informática y siempre trato de seguir llevando cursos diversos.La mayor parte de mi experiencia es en tecnologías microsoft, tanto en desarrollo como base de datos,también he tocado algún framework de frontend, hace un tiempo algo de machine learning en ámbitos académicos y últimamente aplicando arquitecturas limpias."
       company:
       link:
@@ -280,7 +288,7 @@ params:
     - name: "Maria S. Lopez Oller"
       twitter:
       id: "maria-lopez"
-      photo:
+      photo: "img/MariaLopez.png"
       bio: "Analista, formación en Informática, Sociología y Máster en Big Data. Trabajando como Analista de Performance de Servicios Digitales del Gobierno de UK descubrí el diseño centrado en el usuario (UCD) y las metodologías Ágiles, que intento aplicar a todos mis proyectos. Interesada en creación de métricas, en la triangulación de metodologías y data sources. Así como análisis de datos con python y automatización de procesos."
       company:
       link:
