@@ -63,6 +63,9 @@ params:
       url: "https://microsoft.es/"
 
   Contributors:
+    - name: "Girls In Tech"
+      logo: "img/logo-girls-in-tech.jpg"
+      url: "https://girlsintech.org/"
     - name: "ISTAC"
       logo: "/img/istac_logo.png"
       url: "http://www.gobiernodecanarias.org/istac/"
