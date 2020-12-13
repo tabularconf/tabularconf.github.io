@@ -244,6 +244,22 @@ params:
         description: "TBD "
         time:
 
+
+    - name: "Gema Parreño"
+      twitter: "soyGema"
+      id: "gema-parreño"
+      photo: "img/Gema_Parreno.jpeg"
+      bio: "Gema Parreno es programadora enfocada en Machine Learning. Su trayectoria incluye fundar su propia Startup de videojuegos , BBVA y Google Brain . 
+Trabaja como Lead Data Scientist y esta desarrollando el videojuego Mempathy"
+      company:
+      link:
+        href:
+        text:
+      presentation:
+        title: ""
+        description: " "
+        time:
+
     - name: "Jason Jiménez Cruz"
       twitter:
       id: "jason-jimenez"
@@ -308,6 +324,15 @@ params:
       time: "10:45"
       topics:
         - "Geospatial health data"
+
+    - title: "Aprendizaje por refuerzo e Imitación en serious video-games."
+      authors:
+        - author: "Gema Parreño"
+          author_id: "gema-parreño"
+      abstract: "La charla compara dos técnicas aplicadas de Inteligencia artificial en videojuegos para resolver el comportamiento de NPCs ( Non playable characters )  usando Unity ML Agents para el videojuego en desarrollo Mempathy. "
+      time: "11:30"
+      topics:
+        - "IA en Videojuegos"
 
     - title: "Masajeando datos: ETLs en la nube con Data Fusion"
       authors:
