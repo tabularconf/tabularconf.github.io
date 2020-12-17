@@ -62,6 +62,10 @@ params:
       logo: "/img/microsoft_logo.png"
       url: "https://microsoft.es/"
 
+    - name: "Cátedra Telefónica"
+      logo: "/img/catedra-telefonica-medialab.png"
+      url: "http://medialab.usal.es/"
+
   Contributors:
     - name: "Girls In Tech"
       logo: "img/logo-girls-in-tech.jpg"
@@ -81,6 +85,10 @@ params:
     - name: "ANBAN"
       logo: "img/logo-anban2.png"
       url: "https://asociacionbigdata.es/"
+
+    - name: "MedialabUSAL"
+      logo: "img/medialabUSAL2.png"
+      url: "http://medialab.usal.es/"
 
   # List of Partners
   Partners:
