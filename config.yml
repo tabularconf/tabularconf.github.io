@@ -241,7 +241,7 @@ params:
         description: "Los datos de salud geoespaciales son esenciales para informar las políticas de salud pública. Estos datos pueden utilizarse para cuantificar la carga de enfermedades, comprender patrones geográficos y temporales, identificar factores de riesgo y medir desigualdades. En esta charla, describiré mi investigación que se centra en el desarrollo de métodos geoespaciales y aplicaciones de visualización interactivas para la vigilancia de la salud. Mostraré varios paquetes de R para manipular, modelizar y visualizar datos espaciales y como éstos pueden usarse para predecir el riesgo y guiar la implementación de intervenciones para la eliminación de enfermedades tropicales en varios países. También mostraré los paquetes de R epiflows para la predicción de la propagación de enfermedades por flujos de viajes, y SpatialEpiApp para el mapeo de enfermedades y la detección de clusters. Finalmente, describiré mis futuras líneas de investigación y cómo éstas pueden contribuir a mejorar la salud de la población a nivel global."
         time:
 
-    - name: "Beatriz Hernández"
+    - name: "Bea Hernández"
       twitter: "Chucheria"
       id: "beatriz-hernandez"
       photo: "img/bea.jpg"
@@ -414,7 +414,7 @@ Trabaja como Lead Data Scientist y esta desarrollando el videojuego Mempathy"
 
     - title: "Pinta y deep-colorea"
       authors:
-        - author: "Beatriz Hernández"
+        - author: "Bea Hernández"
           author_id: "beatriz-hernandez"
       abstract: "Uno de los múltiples usos de las redes neuronales es su aplicación al arte, y con esto no hablo de transferir estilos, si no de crear el tuyo propio. Vamos a dibujar y colorear con redes neuronales, desde el lienzo en blanco."
       time: "17:30"
