@@ -365,6 +365,23 @@ p {
   transition: all 0.4s ease 0s;
 }
 
+
+.discord{
+  color: black !important;
+  text-transform: uppercase;
+
+  font-size: 16px;
+  background: white;
+  padding: 10px;
+  margin-top: 15px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  display: inline-block;
+  border: none;
+  transition: all 0.4s ease 0s;
+}
+
+
 .inscription:hover {
   background: #434343;
   letter-spacing: 1px;
