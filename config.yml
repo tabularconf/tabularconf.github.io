@@ -74,6 +74,10 @@ params:
       logo: "/img/istac_logo.png"
       url: "http://www.gobiernodecanarias.org/istac/"
 
+    - name: "SEIO"
+      logo: "/img/logo-seio.jpeg"
+      url: "http://www.seio.es/"
+
     - name: "Python Chile"
       logo: "/img/python_chile_logo.png"
       url: "https://pythonchile.cl/"
