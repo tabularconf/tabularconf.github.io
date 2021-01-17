@@ -2,8 +2,24 @@
 
 <p>Agenda provisional del evento</p>
 
+<div class="talk-slot">
+  
+  <h4 class="talk-first-header"> <span class="talk-time"></span>10:30<span> - </span><span class="talk-author"><a href="#{{ .author_id }}"></a></span></h4> 
+  <h3 class="talk-second-header">
+    <span class="talk-title">Presentación del Evento</span>
+  </h3>
+  <p class="talk-abstract">
+    Desde la organización queremos daros las gracias y los buenos días.
+  </p>
+  <div class="talk-topics">
+    {{ range $topic := .topics }}
+    <span class="talk-topic">{{ . }}</span>
+    {{ end }}
+  </div>
+</div>
+<div class="talk-vertical-line talk-vertical-line-content">
 
-
+</div>
 
 {{ range $slot := .talks }}
   <div class="talk-slot">
@@ -30,12 +46,12 @@
 {{ end }}
 <div class="talk-slot">
   
-  <h4 class="talk-first-header"> <span class="talk-time"></span>18:30<span> - </span><span class="talk-author"><a href="#{{ .author_id }}"></a></span></h4> 
+  <h4 class="talk-first-header"> <span class="talk-time"></span>18:00<span> - </span><span class="talk-author"><a href="#{{ .author_id }}"></a></span></h4> 
   <h3 class="talk-second-header">
     <span class="talk-title">Cierre</span>
   </h3>
   <p class="talk-abstract">
-    Cierre y despedida del evento
+    Sorteo y entrega de premios y obsequios....¡¡¡hasta el año que viene!!!
   </p>
   <div class="talk-topics">
     {{ range $topic := .topics }}

@@ -275,62 +275,8 @@ Trabaja como Lead Data Scientist y esta desarrollando el videojuego Mempathy"
         description: " "
         time:
 
-    - name: "Jason Jiménez Cruz"
-      twitter:
-      id: "jason-jimenez"
-      photo: "img/JasonJimenez.png"
-      bio: "De Madrid, desarrollador FullStack (Python, Javascript, C#, Kotlin) y Data Scientist (Python, R), amante de las arquitecturas de microservicios y sistemas de recomendación, me gusta todo el proceso de exploración de datasets y creación de nuevos. En mis tiempos libres me dedico a la programación de videojuegos, modelaje 3D y música."
-      company:
-      link:
-        href:
-        text:
-      presentation:
-        title: "Proyecto Ángel"
-        description: "Hoy en día el COVID ha hecho cambiar la vida de mucha gente. Nuestra solución para facilitar la ayuda en la comunidad es una red colaborativa basada en geolocalización. Para tener una mejor optimización usamos una base de datos de grafos para calcular las distancias entre todos los distintos agentes sociales involucrados teniendo en cuenta los caminos más óptimos entre clientes, pequeños comercios y voluntarios. Para mejorar el resultado y no solo basarlo en la geolocalización hemos añadido un sistema de recomendación basado en información aportada por el usuario en el registro de la app. Igualmente esto nos permite tener una infraestructura para recoger datos para posteriormente entrenarlos y hacer predicciones."
-        time:
-
-    - name: "Samir Guillen"
-      twitter:
-      id: "samir-guillen"
-      photo: "img/SamirGuillen.png"
-      bio: "Desarrollador FullStack, realicé el grado en ingeniería informática y siempre trato de seguir llevando cursos diversos.La mayor parte de mi experiencia es en tecnologías microsoft, tanto en desarrollo como base de datos,también he tocado algún framework de frontend, hace un tiempo algo de machine learning en ámbitos académicos y últimamente aplicando arquitecturas limpias."
-      company:
-      link:
-        href:
-        text:
-      presentation:
-        title: "Proyecto Ángel"
-        description: "Hoy en día el COVID ha hecho cambiar la vida de mucha gente. Nuestra solución para facilitar la ayuda en la comunidad es una red colaborativa basada en geolocalización. Para tener una mejor optimización usamos una base de datos de grafos para calcular las distancias entre todos los distintos agentes sociales involucrados teniendo en cuenta los caminos más óptimos entre clientes, pequeños comercios y voluntarios. Para mejorar el resultado y no solo basarlo en la geolocalización hemos añadido un sistema de recomendación basado en información aportada por el usuario en el registro de la app. Igualmente esto nos permite tener una infraestructura para recoger datos para posteriormente entrenarlos y hacer predicciones."
-        time:
-    - name: "Gabriela Beatriz Amadori Ferrer"
-      twitter:
-      id: "gabriela-amadori"
-      photo: img/gabriela amadori.jpeg
-      bio: "Apasionada por la matemática desde pequeña, aunque la vida me llevó por otro camino y me convertí en profesora de fitness y posteriormente abrí mi propio gimnasio. En 2019 retomé las matemáticas y actualmente estoy estudiando en la Facultad de Tecnología de San Pablo en Brasil. Interesada en el área de las matemáticas aplicadas en IA. En 2020 participaré en 5 hackathons, quedando en las primeras posiciones en varios de ellos"
-      company:
-      link:
-        href:
-        text:
-      presentation:
-        title: "Proyecto Ángel"
-        description: "Hoy en día el COVID ha hecho cambiar la vida de mucha gente. Nuestra solución para facilitar la ayuda en la comunidad es una red colaborativa basada en geolocalización. Para tener una mejor optimización usamos una base de datos de grafos para calcular las distancias entre todos los distintos agentes sociales involucrados teniendo en cuenta los caminos más óptimos entre clientes, pequeños comercios y voluntarios. Para mejorar el resultado y no solo basarlo en la geolocalización hemos añadido un sistema de recomendación basado en información aportada por el usuario en el registro de la app. Igualmente esto nos permite tener una infraestructura para recoger datos para posteriormente entrenarlos y hacer predicciones."
-        time:
-
-    - name: "Maria S. Lopez Oller"
-      twitter:
-      id: "maria-lopez"
-      photo: "img/MariaLopez.png"
-      bio: "Analista, formación en Informática, Sociología y Máster en Big Data. Trabajando como Analista de Performance de Servicios Digitales del Gobierno de UK descubrí el diseño centrado en el usuario (UCD) y las metodologías Ágiles, que intento aplicar a todos mis proyectos. Interesada en creación de métricas, en la triangulación de metodologías y data sources. Así como análisis de datos con python y automatización de procesos."
-      company:
-      link:
-        href:
-        text:
-      presentation:
-        title: "Proyecto Ángel"
-        description: "Hoy en día el COVID ha hecho cambiar la vida de mucha gente. Nuestra solución para facilitar la ayuda en la comunidad es una red colaborativa basada en geolocalización. Para tener una mejor optimización usamos una base de datos de grafos para calcular las distancias entre todos los distintos agentes sociales involucrados teniendo en cuenta los caminos más óptimos entre clientes, pequeños comercios y voluntarios. Para mejorar el resultado y no solo basarlo en la geolocalización hemos añadido un sistema de recomendación basado en información aportada por el usuario en el registro de la app. Igualmente esto nos permite tener una infraestructura para recoger datos para posteriormente entrenarlos y hacer predicciones."
-        time:
-
   Talks:
+
     - title: "Ciencia de datos geoespaciales para la vigilancia de la salud pública"
       authors:
         - author: "Paula Moraga"
@@ -389,6 +335,11 @@ Trabaja como Lead Data Scientist y esta desarrollando el videojuego Mempathy"
         - "Análisis de datos"
         - "Machine Learning"
 
+
+
+
+
+        
     - title: "”La luna deja un histograma abandonado en el aire”; Una introducción a la visualización de textos en Python con Vega-lite y Altair de la mano de F. García Lorca"
       authors:
         - author: "Alejandro Benito Santos"
@@ -425,17 +376,4 @@ Trabaja como Lead Data Scientist y esta desarrollando el videojuego Mempathy"
       topics:
         - "Deep learning"
 
-    - title: "Proyecto Ángel"
-      authors:
-        - author: "Jason Jiménez Cruz"
-          author_id: "jason-jimenez"
-        - author: "Samir Guillen"
-          author_id: "samir-guillen"
-        - author: "Maria S.Lopez Oller"
-          author_id: "maria-lopez"
-        - author: "Gabriela Beatriz Amadori Ferrer"
-          author_id: "gabriela-amadori"
-      abstract: "Hoy en día el COVID ha hecho cambiar la vida de mucha gente. Nuestra solución para facilitar la ayuda en la comunidad es una red colaborativa basada en geolocalización. Para tener una mejor optimización usamos una base de datos de grafos para calcular las distancias entre todos los distintos agentes sociales involucrados teniendo en cuenta los caminos más óptimos entre clientes, pequeños comercios y voluntarios. Para mejorar el resultado y no solo basarlo en la geolocalización hemos añadido un sistema de recomendación basado en información aportada por el usuario en el registro de la app. Igualmente esto nos permite tener una infraestructura para recoger datos para posteriormente entrenarlos y hacer predicciones."
-      time: "18:00"
-      topics:
-        - "Geospatial health data"
+
