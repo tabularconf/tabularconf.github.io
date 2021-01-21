@@ -22,7 +22,7 @@
 </div>
 
 {{ range $slot := .talks }}
-  <div class="talk-slot">
+  <div class="talk-slot {{ .type }}">
     <h4 class="talk-first-header"> <span class="talk-time">{{ .time }}</span><span> - 
       {{ range $author := .authors }}
       </span><span class="talk-author"><a href="#{{ .author_id }}">{{ .author }}</a></span>
