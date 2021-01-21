@@ -568,6 +568,14 @@ h2.tagline {
   padding: 25px;
 }
 
+.music {
+  background: #E8CCFA;
+  background-image: url("../img/electric-guitar.svg");
+  background-size: 10%;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
 .talk-vertical-line {
   content: "";
   position: absolute;

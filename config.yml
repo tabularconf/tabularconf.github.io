@@ -335,9 +335,13 @@ Trabaja como Lead Data Scientist y esta desarrollando el videojuego Mempathy"
         - "Análisis de datos"
         - "Machine Learning"
 
-
-
-
+    - title: "Actuación Musical"
+      type: music
+      authors:
+        - author: "Alejandro Samarín"
+          author_id: "alejandro-samarin"
+      abstract: ""
+      time: "14:00"
 
         
     - title: "”La luna deja un histograma abandonado en el aire”; Una introducción a la visualización de textos en Python con Vega-lite y Altair de la mano de F. García Lorca"
@@ -376,4 +380,10 @@ Trabaja como Lead Data Scientist y esta desarrollando el videojuego Mempathy"
       topics:
         - "Deep learning"
 
+    - title: "Actuación Musical"
+      type: music
+      authors:
+        - author: "JesusEtc"
+      abstract: ""
+      time: "18:00"
 
