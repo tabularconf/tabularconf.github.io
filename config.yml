@@ -122,7 +122,7 @@ params:
       id: "alejandro-samarin"
       photo: img/alejandro_samarin.jpg
       twitter: "SamarinAlex"
-      bio: "Alex Samarín works as a full-stack engineer at TecAlliance. To keep things fun and diverse, he has also been freelancing as a side job for the last 3 years; this has involved heterogeneous gigs like conducting technical interviews, delivering trainings or implementing data processing pipelines. Besides computing, he likes guitars, climbing, table tennis, lockpicking and scuba diving."
+      bio: "Alex Samarín works as a Site Reliability Engineer at wave.com. To keep things fun and diverse, he has also been freelancing as a side job for the last 3 years; this has involved heterogeneous gigs like conducting technical interviews, delivering trainings or implementing data processing pipelines. Besides computing, he likes guitars, climbing, table tennis, lockpicking and scuba diving."
       company:
         link:
           href:
