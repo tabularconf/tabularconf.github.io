@@ -268,12 +268,28 @@ params:
 Trabaja como Lead Data Scientist y esta desarrollando el videojuego Mempathy"
       company:
       link:
-        href:
+        href: 
         text:
       presentation:
         title: ""
         description: " "
         time:
+
+    - name: "Jesus Etc"
+      twitter: "grangers_the"
+      id: "jesusetc"
+      photo: "img/thegrangers.jpg"
+      bio: "Jesus se describe a si mismo como 'Un tipo de zamora que toca la guitarra.' pero aparte de humildad derrocha talento musical!!"
+      company:
+      link:
+        href: https://open.spotify.com/artist/2wNYwjRGIMirq67YHOcUHv
+        text:
+      presentation:
+        title: ""
+        description: " "
+        time:
+
+
 
   Talks:
 
@@ -340,8 +356,8 @@ Trabaja como Lead Data Scientist y esta desarrollando el videojuego Mempathy"
       authors:
         - author: "Alejandro Samarín"
           author_id: "alejandro-samarin"
-      abstract: ""
-      time: "14:00"
+      abstract: "Os contaré un secreto: la música 'mainstream' occidental actual es tremendamente aburrida, plana y predecible hasta decir basta. '¿Por qué?', os estaréis preguntando. Pues porque la gran mayoría de 'hits' no son más que variaciones de unos pocos patrones muy interiorizados en nuestras cabecitas. Si quieres saber más acerca de estas 'expresiones regulares musicales', no te pierdas los Minutos Musicales de TabularConf!"
+      time: "15:45"
 
         
     - title: "”La luna deja un histograma abandonado en el aire”; Una introducción a la visualización de textos en Python con Vega-lite y Altair de la mano de F. García Lorca"
@@ -384,6 +400,7 @@ Trabaja como Lead Data Scientist y esta desarrollando el videojuego Mempathy"
       type: music
       authors:
         - author: "JesusEtc"
-      abstract: ""
+          author_id: "jesusetc"
+      abstract: "Jesus nos tocará algunas canciones de su grupo The Grangers al mas puro estilo Folk y Country!"
       time: "18:00"
 
