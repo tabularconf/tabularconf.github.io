@@ -168,8 +168,8 @@ params:
       bio: "Alejandro Benito-Santos (https://alexbs.me/) es miembro del grupo de analítica visual y visualización de la información de la Universidad de Salamanca (VisUSAL), donde obtuvo su doctorado desarrollando herramientas y algoritmos visuales orientados a apoyar el diseño de visualizaciones en Humanidades Digitales y otros contextos de investigación interdisciplinarios. Actualmente, alterna sus clases en el diploma experto en bioinformática y genómica computacional de la Universidad de Salamanca con su actividad investigadora en el proyecto europeo PROVIDEDH - PROgressive VIsual DEcision-Making in Digital Humanities (https://providedh.eu/). Alejandro ha publicado sus trabajos en revistas y conferencias como IEEEVIS, IEEE Computer Graphics & Applications, ADHO Digital Humanities, ACM Journal on Computing and Cultural Heritage, o el workshop en visualización para las humanidades digitales (VIS4DH), entre otros."
       company:
       link:
-        href:
-        text:
+        href: https://www.youtube.com/watch?v=RwiRdzXm2qw
+        text: "Aquí puedes ver el enlace al video de Alex"
       presentation:
         title: "”La luna deja un histograma abandonado en el aire”; Una introducción a la visualización de textos en Python con Vega-lite y Altair de la mano de F. García Lorca"
         description: "La visualización de grandes corpus de textos no estructurados escritos en lenguaje natural es una tarea que ha cobrado especial relevancia debido a su capacidad para acelerar la comprensión de los mismos por parte de un observador humano. En esta charla, presentaremos la biblioteca de visualización declarativa “Altair” (https://altair-viz.github.io/) y su gramática subyacente, vega-lite (https://vega.github.io/vega-lite/), a través de un análisis visual de distintas métricas lingüísticas obtenidas a partir de una selección de obras del conocido poeta y dramaturgo español Federico García Lorca (1898-1936)."
