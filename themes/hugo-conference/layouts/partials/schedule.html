@@ -43,6 +43,13 @@
       <span class="talk-topic">{{ . }}</span>
       {{ end }}
     </div>
+    <br>
+    {{ with .video }}
+    <div class="video-links">
+      <span class="video-link"><a href="{{ . }}"><i class="fab fa-youtube fa-3x"></i></a></span>
+    </div>
+    {{ end }}
+
   </div>
   <div class="talk-vertical-line talk-vertical-line-content">
 

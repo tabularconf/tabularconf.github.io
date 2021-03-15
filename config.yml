@@ -301,6 +301,7 @@ Trabaja como Lead Data Scientist y esta desarrollando el videojuego Mempathy"
       time: "10:45"
       topics:
         - "Geospatial health data"
+      video: "https://www.youtube.com/watch?v=L4_USCoQ6gY"
 
     - title: "Aprendizaje por refuerzo e Imitación en serious video-games."
       authors:
@@ -309,7 +310,8 @@ Trabaja como Lead Data Scientist y esta desarrollando el videojuego Mempathy"
       abstract: "La charla compara dos técnicas aplicadas de Inteligencia artificial en videojuegos para resolver el comportamiento de NPCs ( Non playable characters )  usando Unity ML Agents para el videojuego en desarrollo Mempathy. "
       time: "11:30"
       topics:
-        - "IA en Videojuegos"
+        - "IA en Videojuegos"    
+      
 
     - title: "Masajeando datos: ETLs en la nube con Data Fusion"
       authors:
@@ -319,6 +321,8 @@ Trabaja como Lead Data Scientist y esta desarrollando el videojuego Mempathy"
       time: "12:00"
       topics:
         - "Data Engineering"
+      video: "https://www.youtube.com/watch?v=RwiRdzXm2qw"
+
 
     - title: "Dime cómo juegas y me adaptaré a quién eres"
       authors:
@@ -328,6 +332,8 @@ Trabaja como Lead Data Scientist y esta desarrollando el videojuego Mempathy"
       time: "12:30"
       topics:
         - "Análisis de datos"
+      video: "https://www.youtube.com/watch?v=iPy4Av8tdT4"
+
 
     - title: "Identifica a tu mascota con Computer Vision."
       authors:
@@ -338,6 +344,7 @@ Trabaja como Lead Data Scientist y esta desarrollando el videojuego Mempathy"
       topics:
         - "Computer Vision"
         - "Deep learning"
+      video: "https://www.youtube.com/watch?v=Fr8t0SuHASA"
 
     - title: "Aplicaciones del Machine Learning al mundo del fútbol."
       authors:
@@ -350,6 +357,7 @@ Trabaja como Lead Data Scientist y esta desarrollando el videojuego Mempathy"
       topics:
         - "Análisis de datos"
         - "Machine Learning"
+      video: "https://www.youtube.com/watch?v=7J1cF6tg-KI"
 
     - title: "Actuación Musical"
       type: music
@@ -358,6 +366,7 @@ Trabaja como Lead Data Scientist y esta desarrollando el videojuego Mempathy"
           author_id: "alejandro-samarin"
       abstract: "Os contaré un secreto: la música 'mainstream' occidental actual es tremendamente aburrida, plana y predecible hasta decir basta. '¿Por qué?', os estaréis preguntando. Pues porque la gran mayoría de 'hits' no son más que variaciones de unos pocos patrones muy interiorizados en nuestras cabecitas. Si quieres saber más acerca de estas 'expresiones regulares musicales', no te pierdas los Minutos Musicales de TabularConf!"
       time: "15:45"
+      video: "https://www.youtube.com/watch?v=3RWrVwKWFxM"
 
         
     - title: "”La luna deja un histograma abandonado en el aire”; Una introducción a la visualización de textos en Python con Vega-lite y Altair de la mano de F. García Lorca"
@@ -368,6 +377,7 @@ Trabaja como Lead Data Scientist y esta desarrollando el videojuego Mempathy"
       time: "16:00"
       topics:
         - "Análisis de datos"
+      video: "https://www.youtube.com/watch?v=_k_FC0Xa-TQ"
 
     - title: "MLOps: cómo poner tus sistemas de machine learning en producción"
       authors:
@@ -377,6 +387,7 @@ Trabaja como Lead Data Scientist y esta desarrollando el videojuego Mempathy"
       time: "16:30"
       topics:
         - "DevOps y MLOps"
+      video: "https://www.youtube.com/watch?v=FpCF7Ekf1uI"
 
     - title: "Mitigating Eviction Risk for Residents in the City of Dallas"
       authors:
@@ -386,6 +397,8 @@ Trabaja como Lead Data Scientist y esta desarrollando el videojuego Mempathy"
       time: "17:00"
       topics:
         - "Análisis de datos"
+      video: "https://www.youtube.com/watch?v=lNDHuTT7Kh8"
+        
 
     - title: "Pinta y deep-colorea"
       authors:
@@ -395,6 +408,7 @@ Trabaja como Lead Data Scientist y esta desarrollando el videojuego Mempathy"
       time: "17:30"
       topics:
         - "Deep learning"
+      video: "https://www.youtube.com/watch?v=qUs8cpzjQNc"
 
     - title: "Actuación Musical"
       type: music
@@ -403,4 +417,5 @@ Trabaja como Lead Data Scientist y esta desarrollando el videojuego Mempathy"
           author_id: "jesusetc"
       abstract: "Jesus nos tocará algunas canciones de su grupo The Grangers al mas puro estilo Folk y Country!"
       time: "18:00"
+      video: "https://www.youtube.com/watch?v=CtfMvFPy_7o"
 
